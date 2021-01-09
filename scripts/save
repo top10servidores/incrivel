@@ -15,11 +15,11 @@ if ! command -v "$ROOT_NMS/environment/ngrok" &> /dev/null; then
   exit 1
 fi
 
+git add .
 source "$ROOT_NMS/scripts/environment"
 
 case "${properties[push]}" in
   true)
-    git add .
     AUTO_SAVE_NUMBER=$(git rev-list --all --count)
     git commit -m "Auto-save #$AUTO_SAVE_NUMBER"
     git push origin main;;
