@@ -1,0 +1,72 @@
+# @@@ Written by MCGamer199 @@@
+# Advanced Lucky Block Plugin
+
+one:
+  Leather:
+    Chance: 1
+    Items:
+      item1:
+        Type: LEATHER_HELMET
+      item2:
+        Type: LEATHER_CHESTPLATE
+      item3:
+        Type: LEATHER_LEGGINGS
+      item4:
+        Type: LEATHER_BOOTS
+  Gold:
+    Chance: 1
+    Items:
+      item1:
+        Type: GOLDEN_HELMET
+      item2:
+        Type: GOLDEN_CHESTPLATE
+      item3:
+        Type: GOLDEN_LEGGINGS
+      item4:
+        Type: GOLDEN_BOOTS
+  Iron:
+    Chance: 1
+    Items:
+      item1:
+        Type: IRON_HELMET
+      item2:
+        Type: IRON_CHESTPLATE
+      item3:
+        Type: IRON_LEGGINGS
+      item4:
+        Type: IRON_BOOTS
+
+two:
+  Gold:
+    Chance: 1
+    Items:
+      item1:
+        Type: GOLDEN_HELMET
+      item2:
+        Type: GOLDEN_CHESTPLATE
+      item3:
+        Type: GOLDEN_LEGGINGS
+      item4:
+        Type: GOLDEN_BOOTS
+  Iron:
+    Chance: 1
+    Items:
+      item1:
+        Type: IRON_HELMET
+      item2:
+        Type: IRON_CHESTPLATE
+      item3:
+        Type: IRON_LEGGINGS
+      item4:
+        Type: IRON_BOOTS
+  Diamond:
+    Chance: 1
+    Items:
+      item1:
+        Type: DIAMOND_HELMET
+      item2:
+        Type: DIAMOND_CHESTPLATE
+      item3:
+        Type: DIAMOND_LEGGINGS
+      item4:
+        Type: DIAMOND_BOOTS

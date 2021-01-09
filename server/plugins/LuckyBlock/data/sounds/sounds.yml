@@ -1,0 +1,51 @@
+core:
+  lucky_crafting_table:
+    stop: 'BLOCK_REDSTONE_TORCH_BURNOUT'
+    run: 'ENTITY_BLAZE_HURT'
+    done: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    insert: 'ENTITY_PLAYER_LEVELUP'
+    upgrade: 'ENTITY_PLAYER_LEVELUP'
+  lb:
+    break:
+      fortune: 'BLOCK_NOTE_BLOCK_BELL'
+    drop:
+      repair: 'BLOCK_ANVIL_USE'
+      tnt_rain: 'ENTITY_FIREWORK_LAUNCH'
+      block_rain:
+        launch: 'ENTITY_FIREWORK_LAUNCH'
+        land: 'BLOCK_STONE_STEP'
+      arrow_rain: 'ENTITY_ARROW_SHOOT'
+      item_rain: 'ENTITY_CHICKEN_EGG'
+      lb_rain: 'ENTITY_FIREWORK_LAUNCH'
+      random_item:
+        switch: 'ENTITY_CHICKEN_EGG'
+        drop: 'ENTITY_ITEM_PICKUP'
+    gui:
+      get_item: 'ENTITY_ITEM_PICKUP'
+    structure:
+      lucky_well:
+        activate: 'BLOCK_DISPENSER_FAIL'
+        lucky: 'BLOCK_NOTE_BLOCK_PLING'
+        unlucky: 'ENTITY_TNT_PRIMED'
+    spawn_boss_ritual:
+      witch:
+        particles: 'ENTITY_GENERIC_BURN'
+        spawn: 'ENTITY_GENERIC_EXPLODE'
+  portal:
+    activate: 'ENTITY_BAT_TAKEOFF'
+    teleport: 'UI_BUTTON_CLICK'
+  boss:
+    lb:
+      hurt: 'ENTITY_BLAZE_HURT'
+      death: 'ENTITY_WITHER_DEATH'
+      ambient: 'ENTITY_BLAZE_AMBIENT'
+      heal: 'ITEM_BOTTLE_FILL'
+      blaze_shield: 'ENTITY_ZOMBIE_ATTACK_IRON_DOOR'
+    witch:
+      hurt: 'ENTITY_WITCH_HURT'
+      death: 'ENTITY_WITCH_DEATH'
+      ambient: 'ENTITY_WITCH_AMBIENT'
+    healer:
+      damage: 'ENTITY_GENERIC_HURT'
+      death: 'ENTITY_SHULKER_BULLET_HIT'
+      heal: 'BLOCK_GLASS_BREAK'

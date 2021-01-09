@@ -1,0 +1,69 @@
+# @@@ Written by MCGamer199 @@@
+# Advanced Lucky Block Plugin
+
+ChangingItems:
+  One:
+    Items:
+      Item1:
+        Type: APPLE
+        Amount: 4
+      Item2:
+        Type: GOLDEN_APPLE
+        Amount: 2
+      Item3:
+        Type: SPECTRAL_ARROW
+        Amount: 3-6
+      Item4:
+        Type: POTION
+      Item5:
+        Type: BAKED_POTATO
+        Amount: 6
+      Item6:
+        Type: BEETROOT_SOUP
+      Item7:
+        Type: BOOK
+        Amount: 3
+      Item8:
+        Type: PAPER
+        Amount: 5-6
+      Item9:
+        Type: BOWL
+      Item10:
+        Type: MILK_BUCKET
+      # Random chain armor
+      Item11:
+        Loc: 'default/items/item_changing.yml,Chainmail'
+      Item12:
+        Type: CHORUS_FRUIT
+        Amount: 2
+      Item13:
+        Type: CLAY_BALL
+        Amount: 4
+      Item14:
+        Type: DIAMOND
+      Item15:
+        Type: FEATHER
+      Item16:
+        Type: GLOWSTONE_DUST
+        Amount: 3
+      Item17:
+        Type: LEAD
+        Amount: 1-2
+      Item18:
+        Type: LEATHER
+        Amount: 4-12
+      Item19:
+        Type: NAME_TAG
+      Item20:
+        Type: SUGAR
+        Amount: 5
+
+Chainmail:
+  helemt:
+    Type: CHAINMAIL_HELMET
+  chestplate:
+    Type: CHAINMAIL_CHESTPLATE
+  leggings:
+    Type: CHAINMAIL_LEGGINGS
+  boots:
+    Type: CHAINMAIL_BOOTS

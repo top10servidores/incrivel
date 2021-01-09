@@ -1,0 +1,53 @@
+# Configuration file #
+
+######################
+# Lucky block plugin #
+# Created by MCGamer199 #
+# Don't touch this #
+version: 2.3.2
+######################
+
+
+Allow:
+  ExplosionGrief: true
+  ExplosionFire: true
+  ExplosionDamage: true
+  LBGeneration: false
+
+# Set to true if you want to prevent players from spamming lb commands #
+strict_commands: false
+# Delay after running lb command #
+delay: 20
+
+# Debug #
+debug: false
+
+# Language file #
+lang_file: 'en_US'
+# Sound file #
+sounds_file: 'sounds'
+
+# Actionbar messages #
+ActionbarMessages: true
+
+# Lucky Crafting Table #
+show_display_name: true
+
+# Resource packs options #
+resourcepack:
+  enabled: false
+  url: 'insert your resource pack url here'
+  
+spawn:
+  lucky_villager: false
+
+LuckyBlockCommand:
+  Command: lb
+
+CommandPage:
+  # Available color: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/ChatColor.html
+  color1: red
+  color2: aqua
+  color3: green
+  color4: blue
+  color5: yellow

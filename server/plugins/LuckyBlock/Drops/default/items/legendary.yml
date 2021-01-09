@@ -1,0 +1,324 @@
+# @@@ Written by MCGamer199 @@@
+# Advanced Lucky Block Plugin
+
+SpecialItems:
+  SpawnEggs:
+    Chance: 2
+    Items:
+      item1:
+        Type: SHEEP_SPAWN_EGG
+        Amount: 3-6
+      item2:
+        Chance: 70
+        Type: PIG_SPAWN_EGG
+        Amount: 3-6
+      item3:
+        Chance: 70
+        Type: CHICKEN_SPAWN_EGG
+        Amount: 3-6
+      item4:
+        Chance: 70
+        Type: SQUID_SPAWN_EGG
+        Amount: 3-6
+      item5:
+        Chance: 70
+        Type: COW_SPAWN_EGG
+        Amount: 3-6
+      item6:
+        Chance: 60
+        Type: MOOSHROOM_SPAWN_EGG
+        Amount: 3-6
+      item7:
+        Chance: 40
+        Type: WOLF_SPAWN_EGG
+        Amount: 3-6
+      item8:
+        Chance: 35
+        Type: ZOMBIE_SPAWN_EGG
+        Amount: 3-6
+      item9:
+        Chance: 35
+        Type: SLIME_SPAWN_EGG
+        Amount: 3-6
+      item10:
+        Chance: 35
+        Type: SPIDER_SPAWN_EGG
+        Amount: 3-6
+  Anvils:
+    Chance: 2
+    Items:
+      item1:
+        Type: ANVIL
+        Amount: 4-8
+  SaddleAndBardings:
+    Chance: 2
+    Items:
+      item1:
+        Type: SADDLE
+      item2:
+        Type: IRON_HORSE_ARMOR
+      item3:
+        Type: GOLDEN_HORSE_ARMOR
+      item4:
+        Type: DIAMOND_HORSE_ARMOR
+  Spawners:
+    Chance: 1
+    Items:
+      item1:
+        Type: SPAWNER
+        DisplayName: '&2&lZombie Spawner'
+        Lore:
+         - ''
+         - '&7Dropped from lucky block!'
+        SpawnedType: ZOMBIE
+  EnderChest:
+    Chance: 2
+    Items:
+      item1:
+        Type: ENDER_CHEST
+        Amount: 2-4
+  Elytra:
+    Chance: 2
+    Items:
+      item1:
+        Type: ELYTRA
+  EnchantedElytra:
+    Chance: 1
+    Items:
+      item1:
+        Type: ELYTRA
+        Enchants:
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: 3
+  DragonEgg:
+    Chance: 2
+    Items:
+      item1:
+        Type: DRAGON_EGG
+  TotemOfUndying:
+    Chance: 1
+    Items:
+      item1:
+        Type: TOTEM_OF_UNDYING
+  NetherStar:
+    Chance: 2
+    Items:
+      item1:
+        Type: NETHER_STAR
+        Amount: 1-3
+  Beacons:
+    Chance: 2
+    Items:
+      item1:
+        Type: BEACON
+        Amount: 2-5
+  WitherSkulls:
+    Chance: 2
+    Items:
+      item1:
+        Type: WITHER_SKELETON_SKULL
+        Amount: 1-4
+  Prismarine:
+    Chance: 2
+    Items:
+      item1:
+        Type: PRISMARINE_CRYSTALS
+        Amount: 2-3
+      item2:
+        Type: PRISMARINE_SHARD
+        Amount: 2-4
+  ShulkerBoxWithItems:
+    Chance: 1
+    Items:
+      item1:
+        BuiltIn: 'default/items/i.yml,Shulker'
+        DisplayName: '&6Shulker Box'
+  Fireworks:
+    Chance: 1
+    Items:
+      item1:
+        Type: FIREWORK_ROCKET
+        Amount: 1-4
+        DisplayName: '&1F&2i&3r&4e&5w&6o&7r&8k&9s&f &fW&aO&bO&cO&dO&eW'
+        Lore:
+         - '&7Use them wisely'
+        Firework:
+          Power: 2
+          Effects:
+            Effect1:
+              Flicker: true
+              Type: STAR
+              Colors:
+                Color1:
+                  Name: BLUE
+                Color2:
+                  Name: RED
+                Color3:
+                  Name: YELLOW
+                Color4:
+                  Red: 74
+                  Green: 24
+                  Blue: 102
+              Fades:
+                Fade1:
+                  Name: GREEN
+            Effect2:
+              Trail: true
+              Type: CREEPER
+              Colors:
+                Color1:
+                  Name: PURPLE
+                Color2:
+                  Red: 66
+                  Green: 244
+                  Blue: 232
+              Fades:
+                Fade1:
+                  Red: 72
+                  Green: 66
+                  Blue: 244
+                Fade2:
+                  Name: LIME
+                Fade3:
+                  Name: WHITE
+
+Ingots:
+  Minerals:
+    Items:
+      item1:
+        Type: IRON_INGOT
+        Amount: 16
+      item2:
+        Type: GOLD_INGOT
+        Amount: 16
+      item3:
+        Type: DIAMOND
+        Amount: 16
+      item4:
+        Type: EMERALD
+        Amount: 16
+      item5:
+        Type: LAPIS_LAZULI
+        Amount: 16
+
+Armor:
+  Enchanted:
+    Chance: 1
+    Loc: 'default/items/armor/enchanted.yml,four'
+
+Tools:
+  Fortune:
+    Chance: 1
+    Items:
+      item1:
+        Type: DIAMOND_PICKAXE
+        Enchants:
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: 3
+          Ench2:
+            EnchantmentName: DIG_SPEED
+            Level: 5
+          Ench3:
+            EnchantmentName: LOOT_BONUS_BLOCKS
+            Level: 3
+      item2:
+        Type: DIAMOND_AXE
+        Enchants:
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: 3
+          Ench2:
+            EnchantmentName: DIG_SPEED
+            Level: 5
+          Ench3:
+            EnchantmentName: LOOT_BONUS_BLOCKS
+            Level: 3
+      item3:
+        Type: DIAMOND_SHOVEL
+        Enchants:
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: 3
+          Ench2:
+            EnchantmentName: DIG_SPEED
+            Level: 5
+          Ench3:
+            EnchantmentName: LOOT_BONUS_BLOCKS
+            Level: 3
+      item4:
+        Chance: 85
+        Type: DIAMOND_HOE
+        Enchants:
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: 3
+  SilkTouch:
+    Chance: 1
+    Items:
+      item1:
+        Type: DIAMOND_PICKAXE
+        Enchants:
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: 3
+          Ench2:
+            EnchantmentName: DIG_SPEED
+            Level: 5
+          Ench3:
+            EnchantmentName: SILK_TOUCH
+      item2:
+        Type: DIAMOND_AXE
+        Enchants:
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: 3
+          Ench2:
+            EnchantmentName: DIG_SPEED
+            Level: 5
+          Ench3:
+            EnchantmentName: SILK_TOUCH
+      item3:
+        Type: DIAMOND_SHOVEL
+        Enchants:
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: 3
+          Ench2:
+            EnchantmentName: DIG_SPEED
+            Level: 5
+          Ench3:
+            EnchantmentName: SILK_TOUCH
+      item4:
+        Chance: 85
+        Type: DIAMOND_HOE
+        Enchants:
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: 3
+
+Foods:
+  GoldenApples:
+    Chance: 2
+    Items:
+      item1:
+        Type: GOLDEN_APPLE
+        Amount: 6
+      item2:
+        Type: ENCHANTED_GOLDEN_APPLE
+        Amount: 4
+      item3:
+        Type: GOLDEN_CARROT
+        Amount: 12
+  Meat:
+    Chance: 1
+    Loc: 'default/items/rare.yml,Foods.Meat'
+
+LuckyBlocks:
+  lucky:
+    Items:
+      item1:
+        LBType: 1
+        Luck: '75:100'
+        Amount: 1-4

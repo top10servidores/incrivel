@@ -1,0 +1,408 @@
+# @@@ Written by MCGamer199 @@@
+# Advanced Lucky Block Plugin
+
+DroppedItems:
+  DirtStuff:
+    Items:
+      # Dirt
+      item1:
+        Type: DIRT
+        Amount: 4
+      
+      # Coarse dirt
+      item2:
+        Type: DIRT
+        Amount: 2
+        Data: 1
+      
+      # Podzol
+      item3:
+        Type: DIRT
+        Amount: 2
+        Data: 2
+      
+  BowAndArrows:
+    Items:
+      # Bow
+      item1:
+        Type: BOW
+      
+      # Arrows
+      item2:
+        Type: ARROW
+        Amount: 8
+  
+      
+  Farming:
+    Items:
+      # Stone hoe
+      item1:
+        Type: STONE_HOE
+      
+      # Dirt
+      item2:
+        Type: DIRT
+        Amount: 6
+      
+      # Bone meal
+      item3:
+        Type: BONE_MEAL
+        Amount: 12-14
+
+  IronNugget:
+    Items:
+      item1:
+        Type: IRON_NUGGET
+        Amount: 2-4
+
+  Dirt:
+    Items:
+      item1:
+        Type: DIRT
+
+  WoodenPick:
+    Items:
+      item1:
+        Type: WOODEN_PICKAXE
+
+
+# Random tools with enchantments
+RandomEnchantedTool:
+  EnchantedPickaxe1:
+    Chance: 3
+    Items:
+      item1:
+        Type: STONE_PICKAXE
+        # Enchantments added: <Unbreaking, Efficiency>
+        Enchants:
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: '1:2'
+          Ench2:
+            EnchantmentName: DIG_SPEED
+            Level: 1
+  
+  EnchantedPickaxe2:
+    Chance: 2
+    Items:
+      item1:
+        Type: IRON_PICKAXE
+        # Enchantments added: <Unbreaking> 
+        Enchants:
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: '1:2'
+  
+  EnchantedPickaxe3:
+    Chance: 3
+    Items:
+      item1:
+        Type: GOLDEN_PICKAXE
+        # Enchantments added: <Unbreaking>
+        Enchants:
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: 2
+  
+  EnchantedAxe:
+    Chance: 1
+    Items:
+      item1:
+        Type: IRON_AXE
+        # Enchantments added: <Efficiency>
+        Enchants:
+          Ench1:
+            EnchantmentName: DIG_SPEED
+            Level: '1:3'
+  
+  EnchantedShovel:
+    Chance: 3
+    Items:
+      item1:
+        Type: IRON_SHOVEL
+        # Enchantments added: <Unbreaking>
+        Enchants:
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: '1:3'
+
+
+# Random Tools without enchantments
+Tools:
+  # Items: <Stone Pickaxe, Stone Axe, Stone Shovel, Stone Hoe>
+  Collection1:
+    Chance: 2
+    Items:
+      item1:
+        Type: STONE_PICKAXE
+      item2:
+        Type: STONE_AXE
+      item3:
+        Type: STONE_SHOVEL
+      item4:
+        Type: STONE_HOE
+  
+  # Items: <Golden Pickaxe, Golden Axe, Golden Shovel, Golden Hoe>
+  Collection2:
+    Chance: 2
+    Items:
+      item1:
+        Type: GOLDEN_PICKAXE
+      item2:
+        Type: GOLDEN_AXE
+      item3:
+        Type: GOLDEN_SHOVEL
+      item4:
+        Type: GOLDEN_HOE
+  
+  # Items: <Wooden Pickaxe, Wooden Axe, Wooden Shovel, Wooden Hoe>
+  Collection3:
+    Chance: 1
+    Items:
+      item1:
+        Type: WOODEN_PICKAXE
+      item2:
+        Type: WOODEN_AXE
+      item3:
+        Type: WOODEN_SHOVEL
+      item4:
+        Type: WOODEN_HOE
+  
+  # Items: <Iron Pickaxe, Iron Axe, Iron Shovel, Iron Hoe>
+  Collection4:
+    Chance: 2
+    Items:
+      item1:
+        Type: IRON_PICKAXE
+      item2:
+        Type: IRON_AXE
+      item3:
+        Type: IRON_SHOVEL
+      item4:
+        Type: IRON_HOE
+
+Ingots:
+  Collection1:
+    Chance: 1
+    Items:
+      item1:
+        Type: IRON_INGOT
+        Amount: 4-6
+      item2:
+        Type: GOLD_INGOT
+        Amount: 2-4
+      item3:
+        Type: DIAMOND
+        Amount: 1-2
+      item4:
+        Type: LAPIS_LAZULI
+        Amount: 2-8
+  Collection2:
+    Chance: 2
+    Items:
+      item1:
+        Type: IRON_INGOT
+        Amount: 4-6
+      item2:
+        Type: GOLD_INGOT
+        Amount: 2-4
+      item3:
+        Type: DIAMOND
+        Amount: 1-3
+Pro:
+  TntTorch:
+    Chance: 2
+    Items:
+      item1:
+        Type: TNT
+        Amount: 8
+      item2:
+        Type: REDSTONE_TORCH
+        Amount: 4
+  Obsidian:
+    Chance: 1
+    Items:
+      item1:
+        Type: OBSIDIAN
+        Amount: 10
+  EnchantmentTable:
+    Chance: 1
+    Items:
+      item1:
+        Type: ENCHANTING_TABLE
+        Amount: 1-2
+  Beacon:
+    Chance: 1
+    Items:
+      item1:
+        Type: BEACON
+  Dropper:
+    Chance: 1
+    Items:
+      item1:
+        Type: DROPPER
+        Amount: 8
+  Pistons:
+    Chance: 1
+    Items:
+      item1:
+        Type: PISTON
+        Amount: 4
+      item2:
+        Type: STICKY_PISTON
+        Amount: 4
+  Buckets:
+    Chance: 2
+    Times: 1-3
+    Items:
+      item1:
+        Type: LAVA_BUCKET
+      item2:
+        Type: WATER_BUCKET
+      item3:
+        Type: BUCKET
+        Amount: 1-2
+  Saddle:
+    Chance: 1
+    Items:
+      item1:
+        Type: SADDLE
+  Cake:
+    Chance: 2
+    Times: 1-4
+    Items:
+      item1:
+        Type: CAKE
+  EnderEyes1:
+    Chance: 2
+    Items:
+      item1:
+        Type: ENDER_PEARL
+        Amount: 2-3
+      item2:
+        Type: EYE_OF_ENDER
+        Amount: 2-3
+  EnderEyes2:
+    Chance: 1
+    Items:
+      item1:
+        Type: ENDER_PEARL
+        Amount: 2-3
+      item2:
+        Type: ENDER_EYE
+        Amount: 2-3
+      item3:
+        Type: BLAZE_ROD
+        Amount: 4
+
+LuckyBlocks:
+  lucky:
+    Chance: 1
+    Items:
+      item1:
+        LBType: 1
+        Luck: '0:50'
+        Amount: 1-3
+  unlucky:
+    Chance: 1
+    Items:
+      item1:
+        LBType: 1
+        Luck: '-50:-20'
+        Amount: 1-3
+
+Plants:
+  HayBale:
+    Chance: 1
+    Items:
+      item1:
+        Type: HAY_BLOCK
+        Amount: 8
+  Sponge:
+    Chance: 2
+    Items:
+      item1:
+        Type: SPONGE
+        Amount: 8
+  Bone:
+    Chance: 1
+    Items:
+      item1:
+        Type: BONE
+        Amount: 12
+      item2:
+        Type: BONE_MEAL
+        Amount: 24
+  Pumpkin:
+    Chance: 1
+    Items:
+      item1:
+        Type: PUMPKIN
+        Amount: 16
+      item2:
+        Type: JACK_O_LANTERN
+        Amount: 8
+  Mushroom:
+    Chance: 1
+    Times: 1-2
+    Items:
+      item1:
+        Type: RED_MUSHROOM
+        Amount: 1-2
+      item2:
+        Type: BROWN_MUSHROOM
+        Amount: 1-2
+
+Decoration:
+  Paintings:
+    Chance: 2
+    Items:
+      item1:
+        Type: PAINTING
+        Amount: 4-6
+  StoneBricks:
+    Chance: 1
+    Items:
+      item1:
+        Type: STONE_BRICKS
+        Amount: 6
+      item2:
+        Type: SMOOTH_STONE
+        Amount: 6
+      item3:
+        Type: CHISELED_STONE_BRICKS
+        Amount: 6
+      item4:
+        Type: CRACKED_STONE_BRICKS
+        Amount: 6
+  Bookshelf:
+    Chance: 1
+    Items:
+      item1:
+        Type: BOOKSHELF
+        Amount: 12
+      item2:
+        Type: BOOK
+        Amount: 6-9
+
+RottenFlesh:
+  Head:
+    Chance: 1
+    Items:
+      item1:
+        Type: ROTTEN_FLESH
+      item2:
+        Type: ZOMBIE_HEAD
+  NoHead:
+    Chance: 4
+    Items:
+      item1:
+        Type: ROTTEN_FLESH
+
+Foods:
+  GoldenApples:
+    Chance: 1
+    Items:
+      item1:
+        Type: GOLDEN_APPLE
+        Amount: 1-4

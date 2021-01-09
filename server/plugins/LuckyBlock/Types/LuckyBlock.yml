@@ -1,0 +1,230 @@
+# @@@ Written by MCGamer199 @@@
+# Advanced Lucky Block Plugin
+
+# The Default Lucky Block
+# Multiple files are allowed so you can have multiple lb types
+
+###############################
+Version: 232
+# Lucky Block ID
+# Must be unique
+# Must be a valid number between 0 and 256
+ID: 1
+# Item display name
+# Color codes can be used (use the "&" symbol)
+# Formatting codes: https://minecraft.gamepedia.com/Formatting_codes
+Name: '&eLucky Block'
+# Whether this type is the default types
+Default: true
+# Folder name
+Folder: default
+# Set to true to disable
+Disabled: false
+# Players in creative mode can break lucky blocks
+CreativeMode: true
+# false by default (slightly bugged i guess?)
+UseDefaultBlock: false
+# Show lucky blocks name above them
+ShowName: false
+# Show additional data above lucky blocks (ShowName must be enabled)
+ShowData: false
+# Fortune enchantment increases luck for this lb type
+LuckEnchantment: true
+# Can be used to create portal to the lucky block world
+Portal: true
+# Item's lore
+Lore:
+ - '&7The default lucky block'
+ - ''
+###############################
+
+
+
+###############################
+# Block material and data
+# Type must be a valid material (available materials: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)
+Type: SPONGE
+# To use skulls follow the instructions below (using skins is not recommended btw)
+# Set "Type" to PLAYER_HEAD
+# Set UseSkin to true
+# Choose a skin by either using the "Skin" option as shown below or by using both SkinId and SkinValue options
+# Skin: LUCKY
+# Available skins: LUCKY, PRESENT, COLORED, BLUE_PRESENT, CHEESE, CHEST, CANDY_CANE, GOLD_BLOCK, SPONGE, BEACH_BALL, SOCCER_BALL, CHECKER_BOARD
+###############################
+
+
+
+###############################
+# Permissions
+# Allowed permissions: Placing, Breaking, Crafting, SilkTouch
+# Adding something else will cause an error
+Permissions:
+  Crafting:
+    Name: 'lb.typeDefault.craft'
+    Default: 'true'
+    # The field below is not required
+    Description: 'Allows players to craft the default lucky blocks!'
+  Placing:
+    Name: 'lb.typeDefault.place'
+    Default: 'true'
+    Description: 'Allows players to place the default lucky blocks!'
+  Breaking:
+    Name: 'lb.typeDefault.break'
+    Default: 'true'
+    Description: 'Allows players to break the default lucky blocks!'
+  SilkTouch:
+    Name: 'lb.typeDefault.silktouch'
+    Default: 'true'
+    Description: 'Allows players to have silk touch feature!'
+###############################
+
+
+
+###############################
+# Sounds
+# Play sound on place?
+AllowPlaceSound: true
+
+# Play sound on break?
+AllowBreakSound: true
+
+# Arguments: soundname(string) volume(float) pitch(float)
+# Available sounds can be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+
+# Sound played when placing
+PlaceSound: ENTITY_CREEPER_DEATH 1 0
+
+# Sound played when breaking
+BreakSound: ENTITY_CHICKEN_EGG 1 1
+###############################
+
+
+
+###############################
+# Particles
+# Spawn particles on place?
+AllowPlaceParticles: true
+
+# Spawn particles on break?
+AllowBreakParticles: true
+
+# Spawn particles every x tick?
+AllowTickParticles: true
+
+# Arguments: particle_name locX locY locZ speed amount dX dY dZ
+# Available particles can be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Particle.html
+
+# Particle spawned when placing
+PlaceParticles: SPELL_WITCH 0.4 0.5 0.4 0 48 0.4 0.3 0.4
+
+# Particle spawned when breaking
+BreakParticles: END_ROD 0.6 0.7 0.6 0 20 0.4 0.3 0.4
+
+# Random number between 35 and 75
+a_Random: '35,75'
+
+# Particle spawned every "a_Random" tick
+TickParticles: VILLAGER_HAPPY 0.3 0.3 0.3 0 12 0.3 0.3 0.3
+###############################
+
+
+
+###############################
+# Luck
+# Minimum luck
+MinLuck: -100
+
+# Maximum luck
+MaxLuck: 100
+###############################
+
+
+
+###############################
+# Delay in ticks before drops spawn after breaking a lucky block #
+Delay: 0
+###############################
+
+
+
+###############################
+# Properties
+Properties:
+ - CAN_BE_PUSHED
+ - CAN_BE_THROWN
+
+# ItemProperties:
+#  - CUSTOM_PERCENT_COLORS
+# PercentColors:
+#  - '0=gold'
+#  - '1:49=yellow'
+#  - '50:I=green'
+#  - 'I:-1=red'
+###############################
+
+
+
+###############################
+# Whether it can be crafted
+Craftable: true
+
+# Crafting Recipes
+# Available options: Amount,Luck,Drop
+Recipes:
+  Normal:
+    Amount: 1
+    Luck: '[RANDOM]'
+    Shape:
+    - XXX
+    - XVX
+    - XXX
+    Ingredients:
+    - X GOLD_INGOT
+    - V DROPPER
+  Lucky:
+    Amount: 1
+    Luck: 100
+    Shape:
+    - XXX
+    - XVX
+    - XXX
+    Ingredients:
+    - X DIAMOND
+    - V DROPPER
+  Unlucky:
+    Amount: 1
+    Luck: -100
+    Shape:
+    - XXX
+    - XVX
+    - XXX
+    Ingredients:
+    - X SPIDER_EYE
+    - V DROPPER
+###############################
+
+
+
+###############################
+# Allowed worlds for this type
+Worlds:
+- '*All*'
+###############################
+
+
+
+###############################
+# Spawn naturally in worlds
+# LBGeneration option in the config file must be enabled
+GenerateNaturally: true
+# Spawn Rate = x / 1000
+SpawnRate: 3
+SpawnWorlds:
+ - '*All*'
+# Random number between -100 and 100
+GenerateWithLuck: '-100,100'
+# remove the "#" symbols below if you want to make this lucky block type spawn in certain biomes
+# Available biomes can be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/block/Biome.html
+# SpawnBiomes:
+#  - PLAINS
+###############################

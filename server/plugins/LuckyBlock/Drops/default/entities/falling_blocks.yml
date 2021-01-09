@@ -1,0 +1,11 @@
+FallingBlocks:
+  Obsidian:
+    Type: OBSIDIAN
+  NetherWart:
+    Type: NETHER_WART_BLOCK
+  Diamond:
+    Type: DIAMOND_BLOCK
+  Emerald:
+    Type: EMERALD_BLOCK
+  Lapis:
+    Type: LAPIS_BLOCK

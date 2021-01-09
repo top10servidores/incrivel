@@ -1,0 +1,16 @@
+Structures:
+  Temple:
+    LocationType: BLOCK
+    Schematics:
+      Schem1:
+        Loc: '6,6,-2'
+        File: 'default/structures/lucky_temple'
+    Loc: '-3,0,-3'
+    Blocks:
+      Block1:
+        Location:
+          X: 2
+          Y: 1
+          Z: 2
+        LB_ID: 1
+        LB_LUCK: '10:30'

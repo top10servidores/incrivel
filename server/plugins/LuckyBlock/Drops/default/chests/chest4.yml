@@ -1,0 +1,89 @@
+Chests:
+  Default:
+    Rolls: 9-14
+    Inventory:
+      # Random diamond tool
+      Item1:
+        Chance: 2
+        Loc: 'default/items/i.yml,tools_diamond'
+      Item2:
+        Chance: 2
+        Type: DIAMOND_SWORD
+      Item3:
+        Chance: 2
+        Type: FIRE_CHARGE
+        Amount: 24
+      # Random diamond armor
+      Item4:
+        Chance: 2
+        Loc: 'default/items/i.yml,armor_diamond'
+      Item5:
+        Chance: 2
+        Type: GOLDEN_APPLE
+        Amount: 3-6
+        Data: 1
+      Item6:
+        Chance: 2
+        Loc: 'default/items/i.yml,bows.bow2'
+        With:
+         - Arrow
+      Arrow:
+        Type: ARROW
+        Amount: 64
+      # Stone Brick
+      Item7:
+        Chance: 1
+        Type: SMOOTH_STONE
+        Amount: 64
+      Item8:
+        Chance: 2
+        Type: EXPERIENCE_BOTTLE
+        Amount: 16
+      Item9:
+        Chance: 1
+        Type: DIAMOND
+        Amount: 8
+      Item10:
+        Chance: 1
+        Type: EMERALD
+        Amount: 6
+      Item11:
+        Chance: 2
+        Type: ENDER_PEARL
+        Amount: 6
+      Item12:
+        Chance: 1
+        Type: SHIELD
+        DisplayName: '&e&lLucky Shield'
+        Enchants:
+          # Unbreaking V
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: 5
+      Item13:
+        Chance: 2
+        Loc: 'default/items/epic.yml,PotionItems1'
+      Item14:
+        Chance: 1
+        Loc: 'default/items/i.yml,bardings'
+      Item15:
+        Chance: 1
+        Type: TNT
+        Amount: 5
+      Item16:
+        Chance: 2
+        Type: QUARTZ
+        Amount: 12
+      Item17:
+        Chance: 1
+        Type: MUSHROOM_STEW
+      Item18:
+        Chance: 1
+        Type: BEACON
+      Item19:
+        Chance: 1
+        Type: DIAMOND_BLOCK
+        Amount: 2-4
+      Item20:
+        Chance: 1
+        Type: ELYTRA

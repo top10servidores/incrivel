@@ -1,0 +1,390 @@
+# @@@ Written by MCGamer199 @@@
+# Advanced Lucky Block Plugin
+
+SpecialItems:
+  SpawnEggs1:
+    Chance: 1
+    Items:
+      item1:
+        Type: SHEEP_SPAWN_EGG
+        Amount: 2-5
+      item2:
+        Type: PIG_SPAWN_EGG
+        Amount: 2-5
+      item3:
+        Type: CHICKEN_SPAWN_EGG
+        Amount: 2-4
+  SpawnEggs2:
+    Chance: 1
+    Items:
+      item1:
+        Type: SQUID_SPAWN_EGG
+        Amount: 2-5
+      item2:
+        Type: COW_SPAWN_EGG
+        Amount: 2-5
+      item3:
+        Type: MOOSHROOM_SPAWN_EGG
+        Amount: 2-5
+  CompassAndClock:
+    Chance: 2
+    Items:
+      item1:
+        Type: COMPASS
+        Amount: 1-3
+      item2:
+        Type: CLOCK
+        Amount: 1-3
+  FireballCharge:
+    Chance: 2
+    Items:
+      item1:
+        Type: FIRE_CHARGE
+        Amount: 2-12
+  Decoration1:
+    Chance: 2
+    Items:
+      item1:
+        Type: FLOWER_POT
+        Amount: 3-6
+      item2:
+        Type: PAINTING
+        Amount: 3-8
+      item3:
+        Type: ITEM_FRAME
+        Amount: 3-8
+  EnchantmentTable:
+    Chance: 2
+    Items:
+      item1:
+        Type: ENCHANTING_TABLE
+      item2:
+        Type: EXPERIENCE_BOTTLE
+        Amount: 16
+  Anvil:
+    Chance: 2
+    Items:
+      item1:
+        Type: ANVIL
+      item2:
+        Type: EXPERIENCE_BOTTLE
+        Amount: 16
+  Tnt:
+    Chance: 2
+    Items:
+      item1:
+        Type: FLINT_AND_STEEL
+      item2:
+        Type: TNT
+        Amount: 6
+  Saddle:
+    Chance: 2
+    Items:
+      item1:
+        Type: SADDLE
+  HorseArmor:
+    Chance: 2
+    Items:
+      item1:
+        Type: IRON_HORSE_ARMOR
+      item2:
+        Type: GOLDEN_HORSE_ARMOR
+      item3:
+        Type: DIAMOND_HORSE_ARMOR
+  Spawners:
+    Chance: 1
+    Items:
+      item1:
+        Type: SPAWNER
+  Music:
+    Chance: 2
+    Loc: 'default/items/rare.yml,DroppedItems.Music'
+  EnderPearl:
+    Chance: 2
+    Items:
+      item1:
+        Type: ENDER_PEARL
+        Amount: 3-8
+      item2:
+        Type: ENDER_EYE
+        Amount: 3-8
+  EnderChest:
+    Chance: 2
+    Items:
+      item1:
+        Type: ENDER_CHEST
+  Cake:
+    Chance: 2
+    Times: 1-5
+    Items:
+      item1:
+        Type: CAKE
+  BrewingItems:
+    Chance: 1
+    Loc: 'default/items/rare.yml,DroppedItems.BrewingItems'
+  DamagedElytra:
+    Chance: 1
+    Items:
+      item1:
+        Type: ELYTRA
+        Data: 0-350
+  DragonEgg:
+    Chance: 1
+    Items:
+      item1:
+        Type: DRAGON_EGG
+  Doors:
+    Chance: 2
+    Items:
+      item1:
+        Type: OAK_DOOR
+        Amount: 3-6
+      item2:
+        Type: IRON_DOOR
+        Amount: 3-6
+  Coal:
+    Chance: 2
+    Items:
+      item1:
+        Type: COAL_BLOCK
+        Amount: 2-8
+      item2:
+        Type: COAL
+        Amount: 8-20
+  Dyes:
+    Chance: 2
+    Items:
+      item1:
+        Times: 5-10
+        Type: [DYE]
+        Amount: 4-12
+  Mushroom:
+    Chance: 2
+    Times: 1-3
+    Items:
+      item1:
+        Type: RED_MUSHROOM
+        Amount: 1-4
+      item2:
+        Type: BROWN_MUSHROOM
+        Amount: 1-4
+
+Ingots:
+  GoldAndNuggets:
+    Chance: 1
+    Items:
+      item1:
+        Type: GOLD_INGOT
+        Amount: 4-16
+      item2:
+        Type: GOLD_NUGGET
+        Amount: 8-24
+  Minerals:
+    Chance: 2
+    Items:
+      item1:
+        Type: IRON_INGOT
+        Amount: 12-16
+      item2:
+        Type: GOLD_INGOT
+        Amount: 8-12
+      item3:
+        Type: DIAMOND
+        Amount: 4-8
+      item4:
+        Type: EMERALD
+        Amount: 4-8
+
+Armor:
+  Enchanted:
+    Chance: 1
+    Loc: 'default/items/armor/enchanted.yml,three'
+  UnEnchanted:
+    Chance: 3
+    Loc: 'default/items/armor/unenchanted.yml,two.Diamond'
+
+Tools:
+  Enchanted:
+    Chance: 1
+    Items:
+      item1:
+        Type: DIAMOND_PICKAXE
+        Enchants:
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: 3
+      item2:
+        Type: DIAMOND_AXE
+        Enchants:
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: 3
+      item3:
+        Type: DIAMOND_SHOVEL
+        Enchants:
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: 3
+      item4:
+        Chance: 85
+        Type: DIAMOND_HOE
+        Enchants:
+          Ench1:
+            EnchantmentName: DURABILITY
+            Level: 3
+  UnEnchanted:
+    Chance: 2
+    Items:
+      item1:
+        Type: DIAMOND_PICKAXE
+      item2:
+        Type: DIAMOND_AXE
+      item3:
+        Type: DIAMOND_SHOVEL
+      item4:
+        Type: DIAMOND_HOE
+  CarrotStick:
+    Chance: 1
+    Items:
+      item1:
+        Times: 2-4
+        Type: CARROT_ON_A_STICK
+
+Foods:
+  GoldenApples:
+    Chance: 1
+    Items:
+      item1:
+        Type: GOLDEN_APPLE
+        Amount: 3-6
+      item2:
+        Type: GOLDEN_APPLE
+        Amount: 2-4
+        Data: 1
+  Carrots:
+    Chance: 1
+    Items:
+      item1:
+        Type: CARROT
+        Amount: 4-12
+      item2:
+        Type: GOLDEN_CARROT
+        Amount: 4-6
+  Meat:
+    Chance: 2
+    Loc: 'default/items/rare.yml,Foods.Meat'
+  Fish:
+    Chance: 2
+    Loc: 'default/items/rare.yml,Foods.Fish'
+
+LuckyBlocks:
+  lucky:
+    Items:
+      item1:
+        LBType: 1
+        Luck: '25:75'
+        Amount: 1-4
+
+Potions:
+  good:
+    Chance: 2
+    Times: 1-6
+    Items:
+      item1:
+        Loc: 'default/items/epic.yml,PotionItems1'
+  bad:
+    Chance: 1
+    Times: 1-6
+    Items:
+      item1:
+        Loc: 'default/items/epic.yml,PotionItems2'
+
+PotionItems1:
+  speed:
+    Type: POTION
+    CustomPotionEffects:
+      Effect1:
+        PotionEffectType: SPEED
+        Duration: 200-500
+        Amplifier: 0-1
+    BasePotionData:
+      PotionType: SPEED
+  jump:
+    Type: POTION
+    CustomPotionEffects:
+      Effect1:
+        PotionEffectType: JUMP
+        Duration: 200-450
+        Amplifier: 0-2
+    BasePotionData:
+      PotionType: JUMP
+  fire:
+    Type: POTION
+    CustomPotionEffects:
+      Effect1:
+        PotionEffectType: FIRE_RESISTANCE
+        Duration: 300-400
+    BasePotionData:
+      PotionType: FIRE_RESISTANCE
+  regen:
+    Type: POTION
+    CustomPotionEffects:
+      Effect1:
+        PotionEffectType: REGENERATION
+        Duration: 150-300
+        Amplifier: 0-1
+    BasePotionData:
+      PotionType: REGEN
+  heal:
+    Type: POTION
+    CustomPotionEffects:
+      Effect1:
+        PotionEffectType: HEAL
+        Amplifier: 0-1
+    BasePotionData:
+      PotionType: INSTANT_HEAL
+  water_breathing:
+    Type: POTION
+    CustomPotionEffects:
+      Effect1:
+        PotionEffectType: WATER_BREATHING
+        Duration: 450-600
+    BasePotionData:
+      PotionType: WATER_BREATHING
+  strength:
+    Type: POTION
+    CustomPotionEffects:
+      Effect1:
+        PotionEffectType: INCREASE_DAMAGE
+        Duration: 100-260
+        Amplifier: 0-1
+    BasePotionData:
+      PotionType: STRENGTH
+
+PotionItems2:
+  slow:
+    Type: POTION
+    CustomPotionEffects:
+      Effect1:
+        PotionEffectType: SLOW
+        Duration: 200-500
+        Amplifier: 0-1
+    BasePotionData:
+      PotionType: SLOWNESS
+  poison:
+    Type: POTION
+    CustomPotionEffects:
+      Effect1:
+        PotionEffectType: POISON
+        Duration: 100-300
+        Amplifier: 0-1
+    BasePotionData:
+      PotionType: POISON
+  harm:
+    Type: POTION
+    CustomPotionEffects:
+      Effect1:
+        PotionEffectType: HARM
+        Amplifier: 0-1
+    BasePotionData:
+      PotionType: INSTANT_DAMAGE

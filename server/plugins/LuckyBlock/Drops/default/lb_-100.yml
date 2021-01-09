@@ -1,0 +1,196 @@
+# @@@ Written by MCGamer199 @@@
+# Advanced Lucky Block Plugin
+
+# Lucky Block -100 to -51 Luck Options.
+'[Luck]': '-100:-51'
+
+# DropOptions can be added to the drop
+Drops:
+  Drop1:
+    Chance: 1
+    DropName: DROPPED_ITEMS
+    Title: '&bPlants'
+    File: 'default/items/common.yml'
+    Path: 'Plants'
+    Path1: 'Sponge'
+  Drop2:
+    Chance: 1
+    DropName: DROPPED_ITEMS
+    Title: '&bRotten Flesh'
+    File: 'default/items/common.yml'
+    Path: 'RottenFlesh'
+  Drop3:
+    Chance: 2
+    DropName: DROPPED_ITEMS
+    Title: '&bDirt'
+    File: 'default/items/common.yml'
+    Path1: 'Dirt'
+  Drop4:
+    Chance: 1
+    DropName: DROPPED_ITEMS
+    Title: '&bWooden Pickaxe'
+    File: 'default/items/common.yml'
+    Path1: 'WoodenPick'
+  Drop5:
+    Chance: 5
+    DropName: CHEST
+    Title: '&bChest'
+    File: 'default/chests/chest5.yml'
+    Path1: 'Default'
+  Drop6:
+    Chance: 2
+    DropName: BEDROCK
+    Title: '&bBedrock with sign'
+  Drop7:
+    Chance: 5
+    DropName: EXPLOSIVE_CHEST
+    Title: '&bChest that explodes!'
+  Drop8:
+    Chance: 2
+    DropName: POTION_EFFECT
+    Title: '&bBad Effects'
+    Effects:
+     - 'BLINDNESS%120%0'
+     - 'HUNGER%100%2'
+     - 'WEAKNESS%200%1'
+     - 'SLOW%140%2'
+     - 'SLOW_DIGGING%300%3'
+     - 'WITHER%300%4'
+     - 'CONFUSION%300%0'
+     - 'GLOWING%100%0'
+  Drop9:
+    Chance: 2
+    DropName: FIRE
+    Title: '&bFire'
+    Range: 9
+  Drop10:
+    Chance: 2
+    DropName: TELEPORT
+    Title: '&bTeleport player up'
+    Height: 56
+  Drop11:
+    Chance: 3
+    DropName: FLYING_TNTS
+    Title: '&bFlying TNTs'
+    Times: 12
+    Fuse: 45
+  Drop12:
+    Chance: 2
+    DropName: DAMAGE_1
+    Title: '&bKill player slowly!'
+    Times: 56
+    Ticks: 7
+    Message: '&cLook at your health!'
+  Drop13:
+    Chance: 3
+    DropName: EXPLOSION
+    Title: '&bExplosion!'
+    ExplosionPower: 5.1f
+  Drop14:
+    Chance: 2
+    DropName: VOID_HOLE
+    Title: '&bVoid Hole'
+    BordersMaterial: IRON_BLOCK
+  Drop15:
+    Chance: 2
+    DropName: METEORS_1
+    Title: '&bMeteors'
+  Drop16:
+    Chance: 2
+    DropName: BLOCK_RAIN
+    Title: '&bIt%s% raining lava!'
+    Times: 22
+    BlockMaterials:
+     - LAVA
+  Drop17:
+    Chance: 3
+    DropName: ARROW_RAIN
+    Title: '&bArrow Rain'
+    Times: 124
+  Drop18:
+    Chance: 4
+    DropName: ENTITY
+    Title: '&bBlazes'
+    File: 'default/entities/six.yml'
+    Path: 'Mobs'
+    Path1: 'blazes'
+  Drop19:
+    Chance: 5
+    DropName: ENTITY
+    Title: '&bCharged Creepers'
+    File: 'default/entities/six.yml'
+    Path: 'Mobs'
+    Path1: 'charged_creepers'
+  Drop20:
+    Chance: 3
+    DropName: ENTITY
+    Title: '&bZombies'
+    File: 'default/entities/six.yml'
+    Path: 'Mobs'
+    Path1: 'zombie_on_horse'
+  Drop21:
+    Chance: 4
+    DropName: ENTITY
+    Title: '&bHusks'
+    File: 'default/entities/six.yml'
+    Path: 'Mobs'
+    Path1: 'husk_on_horse'
+  Drop22:
+    Chance: 3
+    DropName: ENTITY
+    Title: '&bMagma Cubes'
+    File: 'default/entities/six.yml'
+    Path: 'Mobs'
+    Path1: 'magma_cubes'
+  Drop23:
+    Chance: 4
+    DropName: ENTITY
+    Title: '&bWither Skeletons'
+    File: 'default/entities/six.yml'
+    Path: 'Mobs'
+    Path1: 'wither_skeletons'
+  Drop24:
+    Chance: 3
+    DropName: ENTITY
+    Title: '&bWither'
+    File: 'default/entities/six.yml'
+    Path: 'Mobs'
+    Path1: 'wither'
+  Drop25:
+    Chance: 3
+    DropName: ENTITY
+    Title: '&bWitches'
+    File: 'default/entities/six.yml'
+    Path: 'Mobs'
+    Path1: 'witches'
+  Drop26:
+    Chance: 4
+    DropName: ENTITY
+    Title: '&bSoul Reapers'
+    File: 'default/entities/six.yml'
+    Path: 'Mobs'
+    Path1: 'soul_reapers'
+  Drop27:
+    Chance: 3
+    DropName: ENTITY
+    Title: '&bIron Golems'
+    File: 'default/entities/six.yml'
+    Path: 'Mobs'
+    Path1: 'iron_golems'
+  Drop28:
+    Chance: 4
+    DropName: ENTITY
+    Title: '&bJeff'
+    File: 'default/entities/six.yml'
+    Path: 'Mobs'
+    Path1: 'evoker'
+  Drop29:
+    Chance: 10
+    DropName: ANVIL_JAIL
+    Title: '&bJail (Anvil)'
+  Drop30:
+    Chance: 10
+    DropName: CUSTOM_STRUCTURE
+    Title: '&bLava Trap'
+    File: 'default/structures/lava_trap.yml'
+    Path1: 'LavaTrap'

@@ -1,0 +1,91 @@
+Mobs:
+  blazes:
+    Times: 10-15
+    EntityType: BLAZE
+    Health: 42
+  charged_creepers:
+    Times: 4-9
+    EntityType: CREEPER
+    Powered: true
+  zombie_on_horse:
+    Times: 3-6
+    EntityType: ZOMBIE
+    Equipment:
+      Helmet:
+        Type: SPAWNER
+      Chestplate:
+        Type: LEATHER_CHESTPLATE
+      Leggings:
+        Type: LEATHER_LEGGINGS
+      Boots:
+        Type: LEATHER_BOOTS
+    Vehicle: zombie_horse
+  husk_on_horse:
+    Times: 3-6
+    EntityType: HUSK
+    Equipment:
+      Helmet:
+        Type: SPAWNER
+      Chestplate:
+        Type: LEATHER_CHESTPLATE
+      Leggings:
+        Type: LEATHER_LEGGINGS
+      Boots:
+        Type: LEATHER_BOOTS
+    Vehicle: zombie_horse
+  zombie_horse:
+    EntityType: ZOMBIE_HORSE
+    CustomName: '&1Zombie Horse'
+    CustomNameVisible: true
+    Tamed: true
+    ArmorItem:
+      Loc: 'default/items/i.yml,bardings'
+  magma_cubes:
+    Times: 4
+    EntityType: MAGMA_CUBE
+    Size: 5
+    Drops:
+     - '25 default/items/i.yml,MobDrops.g_apple'
+  wither_skeletons:
+    Times: 10
+    EntityType: WITHER_SKELETON
+    PotionEffects:
+      Effect1:
+        PotionEffectType: INCREASE_DAMAGE
+        Duration: 99999
+        Amplifier: 1
+  wither:
+    EntityType: WITHER
+  witches:
+    Times: 8
+    EntityType: WITCH
+  soul_reapers:
+    Times: 3-4
+    EntityType: ZOMBIE
+    Health: 78
+    PotionEffects:
+      Effect1:
+        PotionEffectType: INVISIBILITY
+        Duration: 99999
+    Equipment:
+      ItemInHand:
+        Type: IRON_AXE
+        Enchants:
+          Enchant1:
+            EnchantmentId: 25
+            Level: 10
+      Helmet:
+        Type: WITHER_SKELETON_SKULL
+      Chestplate:
+        Type: LEATHER_CHESTPLATE
+    DropChances: '0,0.3,0,0,0'
+  iron_golems:
+    Times: 8-12
+    EntityType: IRON_GOLEM
+    Drops:
+     - '15 default/items/i.yml,MobDrops.iron_block'
+  evoker:
+    EntityType: EVOKER
+    CustomName: '&9Jeff'
+    CustomNameVisible: true
+    Health: 90

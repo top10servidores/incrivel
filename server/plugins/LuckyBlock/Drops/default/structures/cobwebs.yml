@@ -1,0 +1,13 @@
+Structures:
+  Cobwebs:
+    LocationType: PLAYER
+    Fillers:
+      filler1:
+        Values:
+         - 'xM=-2'
+         - 'yM=0'
+         - 'zM=-2'
+         - 'xL=3'
+         - 'yL=3'
+         - 'zL=3'
+        Material: COBWEB

@@ -1,0 +1,151 @@
+Chests:
+  FoodsChest:
+    Rolls: 4-7
+    Inventory:
+      Item1:
+        Chance: 2
+        Type: COOKED_CHICKEN
+        Amount: 1-4
+      Item2:
+        Chance: 1
+        Type: GOLDEN_APPLE
+        Amount: 1-2
+      Item3:
+        Chance: 3
+        Type: MELON_SLICE
+        Amount: 3
+      Item4:
+        Chance: 3
+        Type: COD
+        Amount: 2-4
+      Item5:
+        Chance: 2
+        Type: MUSHROOM_STEW
+      Item6:
+        Chance: 2
+        Type: BAKED_POTATO
+        Amount: 1-2
+      Item7:
+        Chance: 2
+        Type: SALMON
+        Amount: 2-3
+      Item8:
+        Chance: 3
+        Type: PORKCHOP
+        Amount: 1-3
+      Item9:
+        Chance: 3
+        Type: COOKIE
+        Amount: 2-6
+      Item10:
+        Chance: 2
+        Type: CAKE
+  ArmorChest:
+    Rolls: 2-5
+    Inventory:
+      Item1:
+        Chance: 1
+        Type: DIAMOND_HELMET
+      Item2:
+        Chance: 2
+        Type: IRON_HELMET
+      Item3:
+        Chance: 2
+        Type: IRON_CHESTPLATE
+      Item4:
+        Chance: 1
+        Type: DIAMOND_BOOTS
+      Item5:
+        Chance: 2
+        Type: CHAINMAIL_LEGGINGS
+      Item6:
+        Chance: 3
+        Type: LEATHER_LEGGINGS
+      Item7:
+        Chance: 1
+        Type: GOLDEN_LEGGINGS
+      Item8:
+        Chance: 2
+        Type: LEATHER_CHESTPLATE
+      Item9:
+        Chance: 3
+        Type: LEATHER_HELMET
+  ToolsWeaponsChest:
+    Rolls: 6
+    Inventory:
+      Item1:
+        Chance: 2
+        Type: BOW
+        With:
+         - 'ItemArrow'
+      ItemArrow:
+        Type: ARROW
+        Amount: 8-16
+      Item2:
+        Chance: 1
+        Type: GOLDEN_SWORD
+      Item3:
+        Chance: 1
+        Type: DIAMOND_SWORD
+      Item4:
+        Chance: 1
+        Type: FLINT_AND_STEEL
+      Item5:
+        Chance: 1
+        Type: FISHING_ROD
+      Item6:
+        Chance: 1
+        Type: NAME_TAG
+        Amount: 1-3
+      Item7:
+        Chance: 1
+        Type: STONE_PICKAXE
+      Item8:
+        Chance: 1
+        Type: IRON_PICKAXE
+  ItemsChest:
+    Rolls: 7-11
+    Inventory:
+      Item1:
+        Chance: 2
+        Type: PUFFERFISH
+        Amount: 1-4
+      Item2:
+        Chance: 3
+        Type: GLASS_BOTTLE
+        Amount: 1-2
+      Item3:
+        Chance: 2
+        Type: IRON_INGOT
+        Amount: 2-4
+      Item4:
+        Chance: 2
+        Type: GOLD_INGOT
+        Amount: 1-4
+      Item5:
+        Chance: 1
+        Type: DIAMOND
+        Amount: 1-3
+      Item6:
+        Chance: 1
+        Type: EMERALD
+        Amount: 1-2
+      Item7:
+        Chance: 3
+        Type: SUGAR
+        Amount: 4-5
+      Item8:
+        Chance: 2
+        Type: GHAST_TEAR
+        Amount: 2-4
+      Item9:
+        Chance: 2
+        Type: FERMENTED_SPIDER_EYE
+        Amount: 1-5
+      Item10:
+        Chance: 1
+        Type: BLAZE_ROD
+        Amount: 1-6
+      Item11:
+        Chance: 1
+        Type: CAULDRON

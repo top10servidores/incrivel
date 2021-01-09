@@ -1,0 +1,345 @@
+# Strings can be edited here  #
+
+# Command messages #
+command:
+  main:
+    invalid_command: '&cInvalid command! Try &a/<lbcmd> help &cfor list of commands.'
+    invalid_type: '&cInvalid type!'
+    error: '&cError!'
+    invalid_number: '&cInvalid number!'
+    invalid_sender: '&cInvalid sender!'
+    invalid_args: '&cInvalid args!'
+    invalid_player: '&cInvalid player!'
+    true_false: '&ctrue/false'
+    no_perm: '&cYou don%!t have permission for this!'
+    no_perm_command: '&cYou don%!t have permission for this command!'
+    type_disabled: '&cThis type is disabled!'
+    invalid_uid: '&cInvalid UUID!'
+    invalid_block: '&cInvalid block!'
+    world_edit_not_found: '&cCould not find worldedit plugin!'
+    schematic_error: '&cCouldn%!t load schematic! (worldedit is not installed)'
+    invalid_drop: '&cInvalid drop!'
+    invalid_tag: '&cInvalid tag!'
+    invalid_lb: '&cInvalid lucky block!'
+    invalid_file: '&cInvalid file!'
+    invalid_sound: '&cInvalid sound!'
+    invalid_item: '&cInvalid item!'
+  place_lb:
+    success: '&aPlaced lucky block!'
+    error: '&cCould not place lucky block!'
+  give_lb:
+    success: '&aGiving %luck-color%%luck%% &alucky block x &e%amount%&a!'
+    invalid_luck: '&cInvalid luck!'
+    invalid_options: '&cInvalid options!'
+  book:
+    1: '&aGiving book to yourself!'
+    2: '&aGiving book to &6%player%'
+  reload:
+    success: '&aReloaded config file!'
+  clear_lbs:
+    success: '&aRemoved &6%total% &alucky block/s!'
+    no_lb: '&cNo lucky block found!'
+  types:
+    page: 'Showing page'
+    disabled: 'Disabled'
+    no_type: '&cNo type found!'
+  lbs:
+    page: 'Showing page'
+    no_lb: '&cNo lucky block found!'
+    data:
+      drop: 'Drop'
+      placed_by: 'Placed by'
+      luck: 'Luck'
+      type: 'Type'
+      hover: 'hover'
+  region:
+    invalid_action: '&cInvalid action!'
+    no_selection: '&cMake a region selection first'
+    progress: '&aMaking changes for &6%total% &ablocks!'
+    no_changes: '&cNo changes were made!'
+    action1:
+      success: '&aCreated &6%total% &alucky blocks!'
+      error: '&cCan%!t create that amount of lbs!'
+    action2: '&aSet drop for &6%total% &alucky blocks!'
+    action3: '&aRemoved &6%total% &alucky blocks!'
+    action4: '&aSet owner for &6%total% &alucky blocks!'
+  spawn_egg:
+    success: '&aGiving spawn egg!'
+    invalid_entity: '&cInvalid entity!'
+    not_allowed: '&cYou are not allowed to get this item!'
+  drop_list:
+    page: '&bShowing page'
+    desc: 'Description'
+    no_desc: 'no description'
+    drop_options: 'DropOptions'
+  lb_item:
+    success: '&aGiving lb item!'
+    invalid_item: '&cInvalid item!'
+  set_drop:
+    success: '&aSuccessfully changed lb drop!'
+  set_lang:
+    success: '&aSuccess!'
+  resource_pack:
+    success: '&aSetting resource pack.'
+    disabled: '&cResource pack is disabled!'
+    invalid_command: '&cInvalid resource pack command!'
+    invalid_resourcepack: '&cPlease insert your resource pack in the config file.'
+  generate:
+    success: '&aSuccessfully generated &6%structure% &a!'
+    specify_structure: '&cPlease specify a structure!'
+    invalid_structure: '&cInvalid structure!'
+  save_structure:
+    success: '&aSuccessfully saved structure (&6%count% &ablocks saved)'
+    file_exists: '&cFile already exists!'
+    max_count_error: '&cCould not save structure (too many blocks found: &6%count%&c>9600)'
+    y_error: '&cY must be between 0 and 255.'
+    area_error: '&cLarge areas can not be saved!'
+  command_desc:
+    description: 'Description'
+    no_description: '&cThis command has no description!'
+    invalid_command: '&cInvalid command!'
+  open_gui:
+    success: '&aOpened LB Gui!'
+  lct_stop:
+    success: '&aStopped!'
+    error: '&cThis lct is not running!'
+  lct_extra:
+    success: '&aSuccess!'
+    error1: '&cMax luck!'
+    error2: '&cThis lct has no extra luck!'
+  run_all:
+    success: '&aRunning all lucky blocks.'
+    no_lb: '&cNo lucky block found!'
+  help:
+    1: 'Lucky Block Help'
+    2: 'Page'
+    3: 'Nothing to show!'
+    4: 'Click here'
+
+# Events Messages #
+event:
+  place_lb:
+    error_world: '&cThis type is disabled for this world!'
+    no_permission: '&cYou don%!t have permission to place lb!'
+    disabled: '&cThis type is disabled!'
+    no_space: '&cNot enough area!'
+  break_lb:
+    no_permission: '&cYou don%!t have permission to break lb!'
+  craft_lb:
+    no_permission: '&cYou don%!t have permission to craft lb!'
+  portal:
+    teleport: '&aTeleporting.'
+  drops:
+    repair:
+      1: '&aRepairing items.'
+      2: '&aRepaired %total% items!'
+    enchant_item:
+      success: '&aEnchanted item!'
+      fail: '&cCould not enchant item!'
+    potion_effect:
+      invalid_effect: '&cInvalid potion effect!'
+    set_block:
+      invalid_material: '&cInvalid material!'
+    lucky_well:
+      lucky: '&aYour wish came true!'
+      unlucky: '&cYou are unlucky this time!'
+    perform_action:
+      error: '&cCouldn%!t perfrom this action!'
+  lucky_crafting_table:
+    display_name: 'Lucky Crafting Table'
+    place:
+      success: '&aPlaced lucky crafting table!'
+      no_permission: '&cYou don%!t have permission to place lucky crafting table!'
+      no_space: '&cNot enough space!'
+    break:
+      success: '&aDestroyed lucky crafting table!'
+      no_permission: '&cYou don%!t have permission to break lucky crafting table!'
+    use:
+      no_permission: '&cYou don%!t have permission to use lct!'
+    upgrade:
+      success: '&aSuccessfully upgraded lct!'
+      no_permission: '&cYou don%!t have permission to upgrade lct!'
+      max_level: '&cMax Level!'
+    charge:
+      no_permission: '&cYou don%!t have permission to charge lct!'
+    viewers:
+      no_permission: '&cYou don%!t have permission!'
+    error1: '&cNo lucky block found!'
+    error2: '&cPut stacks of only one lucky block!'
+    error3: '&cNo item found!'
+    error4: '&cInvalid items!'
+    error5: '&cNo stored luck!'
+    error6: '&cInvalid lucky block!'
+    error7: '&cYou can%!t change luck for this lucky block!'
+    none: 'none'
+    no_fuel: '&cNo fuel!'
+    running: '&cRunning!'
+    settings: 'Lucky Crafting Table Settings'
+    level_up: '&eLevel Up!'
+    stop:
+      name: 'Stop'
+      lore: 'Click to stop'
+    use_extra_luck:
+      name: 'Use Extra Luck'
+      lore: 'Click to use'
+    gui:
+      main:
+        viewers: 'Viewers'
+        stored_luck: 'Stored Luck'
+        level: 'Level'
+        max_luck: 'Max Luck'
+        player: 'Player'
+        fuel: 'Fuel'
+        extra_luck: 'Extra Luck'
+        luck: 'Luck'
+      itemClose:
+        name: 'Close'
+        lore: 'Click to close'
+      itemLocked:
+        name: 'Locked'
+      itemInsert:
+        name: 'Insert Luck'
+        lore: 'Click to insert'
+      itemExtract:
+        name: 'Extract Luck'
+        lore: 'Click to extract'
+      itemTotal:
+        name: 'Total'
+        lore: 'Click here'
+      itemOther:
+        name: 'Other'
+        lore: 'Click here'
+      itemResult:
+        name: 'Result'
+        lore: 'Click to view the result'
+  gui:
+    open:
+      success: '&aOpened lucky block gui!'
+      no_perm: '&cYou don%!t have permission to open lucky block gui!'
+  item:
+    thor_axe:
+      1: '&cUses left'
+      2: '&cNo blocks at your sight!'
+  lucky_inspector:
+    success: '&9The targeted lucky block has the following:'
+    invalid: '&cThe targeted block is not a lucky block!'
+    no_drops: '&cThis lucky block has no drops!'
+    out_of_uses: '&cThis item can no longer be used!'
+
+# Command Description #
+desc:
+  command:
+    adddrop: 'Adds drop to a targeted lucky block.\n&bUsage: adddrop [Drop] [Options]'
+    book: 'Gives lb book to player.'
+    droplist: 'Shows a list of available drops.\n&bUsage: dropList [Page]'
+    generate: 'Generates structures from classes.\n&bUsage: generate [Class]'
+    givelb: 'Used to get lucky blocks, can also be used in command blocks.\n&bUsage: give [Player] [Amount] [Luck] [Type] [Options]'
+    help: 'Shows a list of all available commands.\n&bUsage: help [Page]'
+    lang: 'Changes current language of the plugin.\n&bUsage: lang [file without .yml]'
+    lbitem: 'Gives player a lb item.\n&bUsage: lbItem [Item]'
+    lbs: 'Displays all lucky blocks.\n&bUsage: lbs [Page]'
+    clearlbs: 'Removes all lucky blocks.\n&bUsage: clearlbs [true/false if true it will set block to air]'
+    commanddesc: 'Shows information about a specified command.\n&bUsage: commandDesc [LBCommand]'
+    placelb: 'Places lucky block.\n&bUsage: placelb [x] [y] [z] [Type]'
+    region: 'Used to make changes for a selected area with worldedit plugin.\n&bNote that it takes some time for changes to take effect for large areas.\n&bUsage: region [Action] [Value...]'
+    resourcepack: 'Sets lb resource pack for player/server/world'
+    savestructure: 'Converts structures to strings and saves them.\n&bUsage: savestructure [x1] [y1] [z1] [x2] [y2] [z2] [withAir] [file without .yml]'
+    setdrop: 'Sets drop for targeted lucky block.\n&bUsage: setdrop [Drop] [Options]'
+    spawnegg: 'Gives player spawn egg for specified custom entity.\n&bUsage: spawnegg [CustomEntity]'
+    types: 'Shows available lb types.\n&bUsage: types [Page]'
+    saveitem: 'Saves item in hand to data file'
+    recdeleted: 'Shows recently deleted lucky blocks'
+  
+  # Drop names are not case sensitive
+  drop:
+    chest: 'Spawns a chest with contents'
+    explosive_chest: 'Spawns an explosive chest'
+    entity: 'Spawns entities'
+    villager: 'Spawns a villager who explodes after a while'
+    elemental_creeper: 'Spawns an elemental creeper'
+    f_pigs: 'Spawns flying pigs'
+    slimes: 'Spawns slimes riding on each other'
+    soldier: 'Spawns a super diamond-armored zombie'
+    wolves_ocelots: 'Spawns a bunch of wolves or ocelots'
+    zombie_trap: 'Spawns a zombie who kills one hit while the player can%!t move'
+    trades: 'Spawns a lucky villager who trades good stuffs (WIP)'
+    bob: 'Spawns bob (armored zombie)'
+    peter: 'Spawns peter (armored skeleton)'
+    karl: 'Spawns karl (angry enderman holding a tnt)'
+    hell_hound: 'Spawns the hell hound'
+    talking_zombie: 'Spawns a talking zombie'
+    falling_block: 'Spawns a falling block'
+    lava: 'Places 5 lava blocks'
+    splash_potion: 'Spawns splash potions above the player'
+    primed_tnt: 'Spawns a primed tnt'
+    explosion: 'Creates an explosion\nInstant explosion'
+    meteors: 'Spawns deadly meteors'
+    meteors_1: 'Spawns deadly meteors (slightly different)'
+    lightning: 'Strikes lightning bolts'
+    firework: 'Spawns a firework then spawns either a primed tnt or a falling tnt block'
+    fireworks: 'Spawns a bunch of fireworks'
+    dropped_items: 'Spawns dropped items'
+    add_item: 'Adds items to player%!s inventory'
+    fake_item: 'Spawns items which cannot be picked up'
+    repair: 'Repairs items in player%!s inventory'
+    enchant: 'Enchants item in player%!s hand'
+    stuck: 'Prevents the player from moving for a specified time'
+    damage: 'Deals damage to the player'
+    tower: 'Spawns a tower made of blocks and a diamond block on top'
+    f_lb: 'Spawns a flying lucky block'
+    lb_item: 'Drops a lucky block on the ground'
+    bedrock: 'Places a bedrock with a sign on it'
+    jail: 'Puts the player in a jail'
+    tree: 'Spawns a tree'
+    sink_in_ground: 'Makes the player sink in the ground until they reach the void'
+    feed: 'Feeds the player'
+    heal: 'Heals the player'
+    sign: 'Places a sign with text'
+    xp: 'Spawns xp orb'
+    poison_entities: 'Poisons nearby entities'
+    run_command: 'Runs a command line'
+    clear_effects: 'Removes potion effects from the player'
+    teleport: 'Teleports the player up in the air'
+    perform_action: 'WIP'
+    random_item: 'Random item'
+    tnt_rain: 'It%!s raining tnts'
+    item_rain: 'It%!s raining items'
+    block_rain: 'It%!s raining blocks'
+    arrow_rain: 'Shoots a bunch of arrows in the air'
+    rocket: 'WIP'
+    set_nearby_blocks: 'Changes nearby blocks into a specified material'
+    sound: 'Plays a sound'
+    xp_rain: 'Throws xp bottles'
+    set_block: 'Places a block'
+    falling_anvils: 'Spawns some anvils above the player'
+    dispenser: 'Places a dispenser shooting arrows'
+    potion_effect: 'Gives potion effects to the player'
+    damage_1: 'Damages player slowly'
+    fire: 'Spreads fire'
+    kill: 'Kills the player\nInstant kill'
+    lava_pool: 'Spawns a lava pool'
+    dropper: 'Spawns a dropper throwing it%!s contents'
+    add_level: 'Gives xp levels to the player'
+    add_xp: 'Gives xp points to the player'
+    lb_rain: 'Launches lucky blocks in the air'
+    tnt_in_the_middle: 'Spawns blocks hiding a tnt in the middle'
+    flying_tnts: 'Spawns a bunch of flying tnts'
+    lava_hole: 'Spawns a hole into lava'
+    void_hole: 'Spawns a hole into the void'
+    water_trap: 'Spawns a water trap'
+    anvil_jail: 'Spawns a falling anvil while the player is trapped'
+    lava_jail: 'Places a lava block while the player is trapped'
+    lucky_well: 'Spawns the lucky well'
+    lb_structure: 'Generates a lucky block structure'
+    schematic_structure: 'Generates a custom structure from a schematic file'
+    custom_structure: 'Generates a custom structure'
+    # Custom Drops
+    drop_inventory: 'Drops player%!s inventory'
+    effects_drop: 'Spawns random particle effects'
+    fake_cake: 'THE CAKE IS A LIE!'
+
+# Log Messages #
+log:
+  luckyblocks:
+    loading: 'Loading lucky blocks.'
+    found: 'Found %total% luckyblock/s!'

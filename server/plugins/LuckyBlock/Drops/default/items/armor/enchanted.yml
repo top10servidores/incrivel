@@ -1,0 +1,170 @@
+# @@@ Written by MCGamer199 @@@
+# Advanced Lucky Block Plugin
+
+three:
+  Protection:
+    Chance: 3
+    Items:
+      item1:
+        Loc: 'default/items/armor/enchanted.yml,prot'
+  Mix:
+    Chance: 1
+    Items:
+      item1:
+        Loc: 'default/items/armor/enchanted.yml,mix'
+
+four:
+  All:
+    Items:
+      item1:
+        Loc: 'default/items/armor/enchanted.yml,all'
+
+prot:
+  helmet:
+    Type: DIAMOND_HELMET
+    Enchants:
+      Ench1:
+        EnchantmentName: PROTECTION_ENVIRONMENTAL
+        Level: '1:3'
+  chestplate:
+    Type: DIAMOND_CHESTPLATE
+    Enchants:
+      Ench1:
+        EnchantmentName: PROTECTION_ENVIRONMENTAL
+        Level: '1:3'
+  leggings:
+    Type: DIAMOND_LEGGINGS
+    Enchants:
+      Ench1:
+        EnchantmentName: PROTECTION_ENVIRONMENTAL
+        Level: '1:3'
+  boots:
+    Type: DIAMOND_BOOTS
+    Enchants:
+      Ench1:
+        EnchantmentName: PROTECTION_ENVIRONMENTAL
+        Level: '1:3'
+mix:
+  helmet:
+    Type: DIAMOND_HELMET
+    Enchants:
+      Ench1:
+        EnchantmentName: PROTECTION_ENVIRONMENTAL
+        Level: '1:2'
+      Ench2:
+    EnchantmentName: PROTECTION_PROJECTILE
+    Level: '1:3'
+  chestplate:
+    Type: DIAMOND_CHESTPLATE
+    Enchants:
+      Ench1:
+        EnchantmentName: PROTECTION_ENVIRONMENTAL
+        Level: '1:2'
+      Ench2:
+        EnchantmentName: THORNS
+  leggings:
+    Type: DIAMOND_LEGGINGS
+    Enchants:
+      Ench1:
+        EnchantmentName: PROTECTION_ENVIRONMENTAL
+        Level: '1:2'
+      Ench2:
+        EnchantmentName: PROTECTION_FIRE
+  boots:
+    Type: DIAMOND_BOOTS
+    Enchants:
+      Ench1:
+        EnchantmentName: PROTECTION_ENVIRONMENTAL
+        Level: '1:2'
+      Ench2:
+        EnchantmentName: PROTECTION_FALL
+
+all:
+  helmet:
+    Type: DIAMOND_HELMET
+    DisplayName: '&e&lLucky Helmet'
+    Enchants:
+      Ench1:
+        EnchantmentName: PROTECTION_ENVIRONMENTAL
+        Level: 4
+      Ench2:
+        EnchantmentName: PROTECTION_PROJECTILE
+        Level: 4
+      Ench3:
+        EnchantmentName: PROTECTION_FIRE
+        Level: 4
+      Ench4:
+        EnchantmentName: PROTECTION_EXPLOSIONS
+        Level: 4
+      Ench5:
+        EnchantmentName: OXYGEN
+        Level: 3
+      Ench6:
+        EnchantmentName: DURABILITY
+        Level: 5
+  chestplate:
+    Type: DIAMOND_CHESTPLATE
+    DisplayName: '&e&lLucky Chestplate'
+    Enchants:
+      Ench1:
+        EnchantmentName: PROTECTION_ENVIRONMENTAL
+        Level: 4
+      Ench2:
+        EnchantmentName: PROTECTION_PROJECTILE
+        Level: 4
+      Ench3:
+        EnchantmentName: PROTECTION_FIRE
+        Level: 4
+      Ench4:
+        EnchantmentName: PROTECTION_EXPLOSIONS
+        Level: 4
+      Ench5:
+        EnchantmentName: THORNS
+        Level: 3
+      Ench6:
+        EnchantmentName: DURABILITY
+        Level: 5
+  leggings:
+    Type: DIAMOND_LEGGINGS
+    DisplayName: '&e&lLucky Leggings'
+    Enchants:
+      Ench1:
+        EnchantmentName: PROTECTION_ENVIRONMENTAL
+        Level: 4
+      Ench2:
+        EnchantmentName: PROTECTION_PROJECTILE
+        Level: 4
+      Ench3:
+        EnchantmentName: PROTECTION_FIRE
+        Level: 4
+      Ench4:
+        EnchantmentName: PROTECTION_EXPLOSIONS
+        Level: 4
+      Ench5:
+        EnchantmentName: DURABILITY
+        Level: 5
+  boots:
+    Type: DIAMOND_BOOTS
+    DisplayName: '&e&lLucky Boots'
+    Enchants:
+      Ench1:
+        EnchantmentName: PROTECTION_ENVIRONMENTAL
+        Level: 4
+      Ench2:
+        EnchantmentName: PROTECTION_PROJECTILE
+        Level: 4
+      Ench3:
+        EnchantmentName: PROTECTION_FIRE
+        Level: 4
+      Ench4:
+        EnchantmentName: PROTECTION_EXPLOSIONS
+        Level: 4
+      Ench5:
+        EnchantmentName: PROTECTION_FALL
+        Level: 4
+      Ench6:
+        EnchantmentName: DEPTH_STRIDER
+        Level: 3
+      Ench6:
+        EnchantmentName: DURABILITY
+        Level: 5

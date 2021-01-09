@@ -1,0 +1,100 @@
+Mobs:
+  diamond_zombies:
+    Times: 5-7
+    EntityType: ZOMBIE
+    Health: 0.5
+    CustomName: '&bDiamond Zombie'
+    CustomNameVisible: true
+    Equipment:
+      Helmet:
+        Type: GOLD_BLOCK
+      Chestplate:
+        Type: DIAMOND_CHESTPLATE
+      Leggings:
+        Type: DIAMOND_LEGGINGS
+      Boots:
+        Type: DIAMOND_BOOTS
+    DropChances: '1,0,0,0,0'
+    PotionEffects:
+      Effect1:
+        PotionEffectType: WEAKNESS
+        Duration: 99999
+        Amplifier: 5
+  rabbits:
+    Times: 6-10
+    EntityType: RABBIT
+    CustomName: '&aRabbit'
+    RabbitType: GOLD
+    Drops:
+     - '100 default/items/i.yml,MobDrops.string'
+  super_chickens:
+    Times: 3-4
+    EntityType: CHICKEN
+    CustomName: '&9&lSuper Chicken'
+    CustomNameVisible: true
+    Health: 32
+    With:
+     - Diamond
+     - Emerald
+  Diamond:
+    EntityType: DROPPED_ITEM
+    ItemStack:
+      Type: DIAMOND
+      Amount: 1-3
+  Emerald:
+    EntityType: DROPPED_ITEM
+    ItemStack:
+      Type: EMERALD
+      Amount: 1-2
+  jeb_sheeps:
+    Times: 7-10
+    EntityType: SHEEP
+    CustomName: 'jeb_'
+    Drops:
+     - '100 default/items/i.yml,MobDrops.wool'
+    With:
+     - Lapis
+  Lapis:
+    Times: 1-3
+    EntityType: DROPPED_ITEM
+    ItemStack:
+      Type: LAPIS_LAZULI
+      Amount: 1-4
+  lucky_squids:
+    EntityType: SQUID
+    Times: 4-9
+    CustomName: '&eLucky Squid'
+    CustomNameVisible: true
+    Drops:
+     - '55 default/items/i.yml,MobDrops.diamond'
+  lucky_mooshrooms:
+    Times: 4-6
+    EntityType: MUSHROOM_COW
+    CustomName: '&eLucky Mooshroom'
+    CustomNameVisible: true
+    Drops:
+     - '70 default/items/i.yml,MobDrops.g_apple'
+  super_donkey:
+    EntityType: DONKEY
+    CustomName: '&9&lSuper Donkey'
+    CustomNameVisible: true
+    Health: 67
+    Attributes:
+      Attr1:
+        AttributeName: GENERIC_MOVEMENT_SPEED
+        Value: 0.56
+    JumpStrength: 1.5
+  snowman_on_horse:
+    EntityType: SNOWMAN
+    Health: 50
+    Derp: true
+    CustomName: '&1&lDerpy Snowman'
+    CustomNameVisible: true
+    Riding: Horse
+  Horse:
+    EntityType: HORSE
+    Tamed: true
+    ArmorItem:
+      Loc: 'default/items/i.yml,bardings.diamond'
+    SaddleItem:
+      Type: SADDLE

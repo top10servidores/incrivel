@@ -1,0 +1,50 @@
+Structures:
+  LavaTrap:
+    LocationType: PLAYER
+    Fillers:
+      ObsidianBox:
+        Values:
+         - 'xM=-3'
+         - 'yM=-3'
+         - 'zM=-3'
+         - 'xL=4'
+         - 'yL=4'
+         - 'zL=4'
+        Material: OBSIDIAN
+      Hollow:
+        Values:
+         - 'xM=-2'
+         - 'yM=-2'
+         - 'zM=-2'
+         - 'xL=3'
+         - 'yL=3'
+         - 'zL=3'
+        Material: AIR
+      Platform:
+        Values:
+         - 'xM=-2'
+         - 'yM=-1'
+         - 'zM=-2'
+         - 'xL=3'
+         - 'yL=0'
+         - 'zL=3'
+        Material: STONE
+      Lava:
+        Values:
+         - 'xM=-2'
+         - 'yM=-2'
+         - 'zM=-2'
+         - 'xL=3'
+         - 'yL=-1'
+         - 'zL=3'
+        Material: LAVA
+      RemovePlatform:
+        Delay: 95
+        Values:
+         - 'xM=-2'
+         - 'yM=-1'
+         - 'zM=-2'
+         - 'xL=3'
+         - 'yL=0'
+         - 'zL=3'
+        Material: AIR

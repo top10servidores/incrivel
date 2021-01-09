@@ -1,0 +1,185 @@
+Zombies:
+  iron_armored_zombie:
+    Chance: 4
+    EntityType: ZOMBIE
+    Equipment:
+      Helmet:
+        Type: IRON_HELMET
+      Chestplate:
+        Type: IRON_CHESTPLATE
+      LEGGINGS:
+        Type: IRON_LEGGINGS
+      BOOTS:
+        Type: IRON_BOOTS
+      ItemInHand:
+        Type: STONE_SWORD
+  two_swords:
+    Chance: 2
+    EntityType: ZOMBIE
+    Health: 30
+    Equipment:
+      Helmet:
+        Type: LEATHER_HELMET
+      Chestplate:
+        Type: LEATHER_CHESTPLATE
+      Leggings:
+        Type: LEATHER_LEGGINGS
+      Boots:
+        Type: LEATHER_BOOTS
+      ItemInHand:
+        Type: IRON_SWORD
+      ItemInOffHand:
+        Type: IRON_SWORD
+  diamond_armored_zombie:
+    Chance: 2
+    EntityType: ZOMBIE
+    Equipment:
+      Helmet:
+        Type: DIAMOND_HELMET
+      Chestplate:
+        Type: DIAMOND_CHESTPLATE
+      Leggings:
+        Type: DIAMOND_LEGGINGS
+      Boots:
+        Type: DIAMOND_BOOTS
+      ItemInHand:
+        Type: DIAMOND_SWORD
+  zombies:
+    Chance: 2
+    EntityType: ZOMBIE
+    Health: 15
+    Times: 5-7
+  soul_reaper:
+    Chance: 1
+    EntityType: ZOMBIE
+    Health: 66
+    PotionEffects:
+      Effect1:
+        PotionEffectType: INVISIBILITY
+        Duration: 99999
+    Equipment:
+      ItemInHand:
+        Type: IRON_AXE
+        Enchants:
+          Enchant1:
+            EnchantmentId: 25
+            Level: 10
+      Helmet:
+        Type: WITHER_SKELETON_SKULL
+      Chestplate:
+        Type: LEATHER_CHESTPLATE
+    DropChances: '0,0.3,0,0,0'
+  giant:
+    Chance: 1
+    EntityType: GIANT
+    CustomName: '&eLucky Giant'
+    CustomNameVisible: true
+
+Skeletons:
+  skeleton_on_horse_chain:
+    Chance: 1
+    EntityType: SKELETON
+    Times: 1-3
+    Equipment:
+      Helmet:
+        Type: CHAINMAIL_HELMET
+      Chestplate:
+        Type: CHAINMAIL_CHESTPLATE
+      Leggings:
+        Type: CHAINMAIL_LEGGINGS
+      Boots:
+        Type: CHAINMAIL_BOOTS
+    Vehicle: Horse
+  skeleton_on_horse_leather:
+    Chance: 1
+    EntityType: SKELETON
+    Times: 1-3
+    Equipment:
+      Helmet:
+        Type: LEATHER_HELMET
+      Chestplate:
+        Type: LEATHER_CHESTPLATE
+      Leggings:
+        Type: LEATHER_LEGGINGS
+      Boots:
+        Type: LEATHER_BOOTS
+    Vehicle: Horse
+  Horse:
+    EntityType: HORSE
+    Tamed: true
+    ArmorItem:
+      Loc: 'default/items/i.yml,bardings'
+    SaddleItem:
+      Type: SADDLE
+  lucky_skeleton:
+    EntityType: SKELETON
+    Health: 32.5
+    CustomName: '&eLucky Skeleton'
+    CustomNameVisible: true
+    Equipment:
+      Helmet:
+        Type: DIAMOND_HELMET
+      Chestplate:
+        Type: DIAMOND_CHESTPLATE
+      Leggings:
+        Type: DIAMOND_LEGGINGS
+      Boots:
+        Type: DIAMOND_BOOTS
+      ItemInHand:
+        Type: BOW
+        Enchants:
+          Ench1:
+            EnchantmentName: ARROW_DAMAGE
+
+Other:
+  creeper:
+    EntityType: CREEPER
+    Attributes:
+      Attribute1:
+        AttributeName: GENERIC_MOVEMENT_SPEED
+        Value: 0.4
+    Passenger: V1
+  V1:
+    EntityType: CREEPER
+    Passenger: V2
+  V2:
+    EntityType: CREEPER
+    Passenger: V3
+  V3:
+    EntityType: CREEPER
+    Passenger: V4
+  V4:
+    EntityType: CREEPER
+  lucky_cow:
+    EntityType: COW
+    CustomName: '&eLucky Cow'
+    CustomNameVisible: true
+  lucky_witch:
+    EntityType: WITCH
+    CustomName: '&eLucky Witch'
+    CustomNameVisible: true
+    With:
+    - Bats
+  Bats:
+    EntityType: BAT
+    Times: 10
+  lucky_chickens:
+    Times: 3-4
+    EntityType: CHICKEN
+    CustomName: '&eLucky Chicken'
+    CustomNameVisible: true
+    With:
+    - Gold
+  Gold:
+    EntityType: DROPPED_ITEM
+    ItemStack:
+      Type: GOLD_INGOT
+      Amount: 4
+  lucky_squids:
+    EntityType: SQUID
+    Times: 7-9
+    CustomName: '&eLucky Squid'
+    CustomNameVisible: true
+  jeb_sheep:
+    EntityType: SHEEP
+    CustomName: 'jeb_'

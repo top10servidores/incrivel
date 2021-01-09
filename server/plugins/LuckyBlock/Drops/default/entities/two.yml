@@ -1,0 +1,51 @@
+Zombies:
+  leather_armored_zombies:
+    Chance: 1
+    Times: 4-6
+    EntityType: ZOMBIE
+    Equipment:
+      Helmet:
+        Type: LEATHER_HELMET
+      Chestplate:
+        Type: LEATHER_CHESTPLATE
+      LEGGINGS:
+        Type: LEATHER_LEGGINGS
+      BOOTS:
+        Type: LEATHER_BOOTS
+      ItemInHand:
+        Type: STONE_SWORD
+  flipped_zombie:
+    Chance: 1
+    EntityType: ZOMBIE
+    Health: 40
+    CustomName: Dinnerbone
+    Equipment:
+      Helmet:
+        Type: GOLD_HELMET
+    Attributes:
+      Attr1:
+        AttributeName: GENERIC_ATTACK_DAMAGE
+        Value: 7
+  zombies:
+    Chance: 1
+    Times: 5-7
+    EntityType: ZOMBIE
+    Equipment:
+      Helmet:
+        Type: SPAWNER
+
+Other:
+  mooshrooms:
+    Times: 2-6
+    EntityType: MUSHROOM_COW
+  jeb_sheeps:
+    Times: 2-4
+    EntityType: SHEEP
+    CustomName: 'jeb_'
+  rabbits:
+    Times: 4
+    EntityType: RABBIT
+  sheeps:
+    Times: 2-8
+    EntityType: SHEEP
+    Color: 0-15

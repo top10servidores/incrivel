@@ -1,0 +1,78 @@
+Mobs:
+  anti_henry:
+    EntityType: PIG_ZOMBIE
+    CustomName: '&dAnti-Henry'
+    CustomNameVisible: true
+    Equipment:
+      Helmet:
+        Type: DIAMOND_HELMET
+      Chestplate:
+        Type: DIAMOND_CHESTPLATE
+      LEGGINGS:
+        Type: DIAMOND_LEGGINGS
+      BOOTS:
+        Type: DIAMOND_BOOTS
+      ItemInHand:
+        Type: DIAMOND_SWORD
+    Target: 'henry'
+  henry:
+    EntityType: SPIDER
+    CustomName: '&eHenry'
+    CustomNameVisible: true
+    Health: 44
+  silverfish:
+    Times: 8-15
+    EntityType: SILVERFISH
+  cavespiders:
+    Times: 3-5
+    EntityType: CAVE_SPIDER
+  lucky_blaze:
+    EntityType: BLAZE
+    CustomName: '&eLucky Blaze'
+    CustomNameVisible: true
+    Drops:
+     - '65 default/items/i.yml,MobDrops.blaze_rod'
+  diamond_wither_skeletons:
+    Times: 1-4
+    EntityType: WITHER_SKELETON
+    Equipment:
+      Helmet:
+        Type: DIAMOND_BLOCK
+    DropChances: '0,0,0,0,1'
+    PotionEffects:
+      Effect1:
+        PotionEffectType: INVISIBILITY
+        Duration: 99999
+  elder_guardian:
+    EntityType: ELDER_GUARDIAN
+    CustomName: '&eLucky Guardian'
+    CustomNameVisible: true
+    With:
+     - guardians
+  guardians:
+    Times: 2-6
+    EntityType: GUARDIAN
+  lucky_husk:
+    EntityType: HUSK
+    CustomName: '&eLucky Husk'
+    CustomNameVisible: true
+    Health: 128
+  rabbits:
+    Times: 4-8
+    EntityType: RABBIT
+    CustomName: '&aRabbit'
+  stray:
+    Times: 2-5
+    EntityType: STRAY
+  lucky_chickens:
+    Times: 3-4
+    EntityType: CHICKEN
+    CustomName: '&eLucky Chicken'
+    CustomNameVisible: true
+    With:
+    - Diamond
+  Diamond:
+    EntityType: DROPPED_ITEM
+    ItemStack:
+      Type: DIAMOND
+      Amount: 1-2

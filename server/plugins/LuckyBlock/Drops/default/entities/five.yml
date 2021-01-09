@@ -1,0 +1,48 @@
+Mobs:
+  blazes:
+    Times: 5-10
+    EntityType: BLAZE
+  creepers:
+    Times: 3-5
+    EntityType: CREEPER
+  endermites:
+    Times: 1-6
+    EntityType: ENDERMITE
+  ghasts:
+    Times: 3-6
+    EntityType: GHAST
+  lucky_giant:
+    EntityType: GIANT
+    CustomName: '&eLucky Giant'
+    CustomNameVisible: true
+  magma_cubes:
+    Times: 1-3
+    EntityType: MAGMA_CUBE
+    Size: 1-4
+  pigs:
+    Times: 2-8
+    EntityType: PIG
+  skeleton_horses:
+    Times: 1-4
+    EntityType: SKELETON_HORSE
+    CustomName: '&1Skeleton Horse'
+    CustomNameVisible: true
+  spiders:
+    Times: 8
+    EntityType: SPIDER
+  snowman:
+    EntityType: SNOWMAN
+    CustomName: '&eLucky Snowman'
+    CustomNameVisible: true
+    Drops:
+     - '71 default/items/i.yml,MobDrops.snowball'
+     - '55 default/items/i.yml,MobDrops.snowblock'
+  wither_skeletons:
+    Times: 6
+    EntityType: WITHER_SKELETON
+    Equipment:
+      Helmet:
+        Type: GLASS
+  powered_creeper:
+    EntityType: CREEPER
+    Powered: true

@@ -1,0 +1,484 @@
+# @@@ Written by MCGamer199 @@@
+# Advanced Lucky Block Plugin
+
+# Lucky Block 25-49 Luck Options.
+'[Luck]': '25:49'
+
+# DropOptions can be added to the drop
+Drops:
+  Drop1:
+    Chance: 2
+    DropName: DROPPED_ITEMS
+    Title: '&bSkull items'
+    File: 'default/items/rare.yml'
+    Path1: 'Skulls'
+  Drop2:
+    Chance: 2
+    DropName: DROPPED_ITEMS
+    Title: '&bTnt and Redstone torch'
+    File: 'default/items/rare.yml'
+    Path1: 'Tnt'
+  Drop3:
+    Chance: 2
+    DropName: DROPPED_ITEMS
+    Title: '&bRedstone Items'
+    File: 'default/items/rare.yml'
+    Path1: 'RedstoneItems'
+  Drop4:
+    Chance: 2
+    DropName: DROPPED_ITEMS
+    Title: '&bCompass and/or Map'
+    File: 'default/items/rare.yml'
+    Path1: 'CompassMap'
+  Drop5:
+    Chance: 2
+    DropName: DROPPED_ITEMS
+    Title: '&bRails and Minecart'
+    File: 'default/items/rare.yml'
+    Path1: 'Rails'
+  Drop6:
+    Chance: 3
+    DropName: DROPPED_ITEMS
+    Title: '&bMusic Items'
+    File: 'default/items/rare.yml'
+    Path1: 'Music'
+  Drop7:
+    Chance: 1
+    DropName: DROPPED_ITEMS
+    Title: '&bBrewing Items'
+    File: 'default/items/rare.yml'
+    Path1: 'BrewingItems'
+  Drop8:
+    Chance: 2
+    DropName: DROPPED_ITEMS
+    Title: '&bBooks'
+    File: 'default/items/rare.yml'
+    Path1: 'Books'
+  Drop9:
+    Chance: 1
+    DropName: DROPPED_ITEMS
+    Title: '&bEnchanted Tool'
+    File: 'default/items/rare.yml'
+    Path: 'RandomEnchantedTools'
+  Drop10:
+    Chance: 3
+    DropName: DROPPED_ITEMS
+    Title: '&bTools'
+    File: 'default/items/rare.yml'
+    Path: 'Tools'
+  Drop11:
+    Chance: 3
+    DropName: DROPPED_ITEMS
+    Title: '&bIngots'
+    File: 'default/items/rare.yml'
+    Path: 'Ingots'
+  Drop12:
+    Chance: 2
+    DropName: DROPPED_ITEMS
+    Title: '&bObsidian'
+    File: 'default/items/rare.yml'
+    Path1: 'Obsidian'
+  Drop13:
+    Chance: 2
+    DropName: DROPPED_ITEMS
+    Title: '&bEnchantment Table'
+    File: 'default/items/rare.yml'
+    Path1: 'EnchantmentTable'
+  Drop14:
+    Chance: 3
+    DropName: DROPPED_ITEMS
+    Title: '&bBeacon'
+    File: 'default/items/rare.yml'
+    Path1: 'Beacon'
+  Drop15:
+    Chance: 1
+    DropName: DROPPED_ITEMS
+    Title: '&bDroppers And Gold'
+    File: 'default/items/rare.yml'
+    Path1: 'DropperAndGold'
+  Drop16:
+    Chance: 1
+    DropName: DROPPED_ITEMS
+    Title: '&bBuckets'
+    File: 'default/items/rare.yml'
+    Path1: 'Buckets'
+  Drop17:
+    Chance: 3
+    DropName: DROPPED_ITEMS
+    Title: '&bSaddle'
+    File: 'default/items/rare.yml'
+    Path1: 'Saddle'
+  Drop18:
+    Chance: 3
+    DropName: DROPPED_ITEMS
+    Title: '&bCake'
+    File: 'default/items/rare.yml'
+    Path1: 'Cake'
+  Drop19:
+    Chance: 2
+    DropName: DROPPED_ITEMS
+    Title: '&bEnder Eye'
+    File: 'default/items/rare.yml'
+    Path1: 'EnderEyes'
+  Drop20:
+    Chance: 3
+    DropName: DROPPED_ITEMS
+    Title: '&bHorse Armour'
+    File: 'default/items/rare.yml'
+    Path1: 'HorseArmor'
+  Drop21:
+    Chance: 2
+    DropName: DROPPED_ITEMS
+    Title: '&bEnder Chest'
+    File: 'default/items/rare.yml'
+    Path1: 'EnderChest'
+  Drop22:
+    Chance: 2
+    DropName: DROPPED_ITEMS
+    Title: '&bLucky Blocks!'
+    File: 'default/items/rare.yml'
+    Path: 'LuckyBlocks'
+    ShowItemName: true
+  Drop23:
+    Chance: 2
+    DropName: DROPPED_ITEMS
+    Title: '&bPlants-related items'
+    File: 'default/items/rare.yml'
+    Path: 'Plants'
+  Drop24:
+    Chance: 2
+    DropName: DROPPED_ITEMS
+    Title: '&bDecoration Items'
+    File: 'default/items/rare.yml'
+    Path: 'Decoration'
+  Drop25:
+    Chance: 3
+    DropName: DROPPED_ITEMS
+    Title: '&bFoods'
+    File: 'default/items/rare.yml'
+    Path: 'Foods'
+  Drop26:
+    Chance: 2
+    DropName: DROPPED_ITEMS
+    Title: '&bBow and Arrows'
+    File: 'default/items/rare.yml'
+    Path: 'Bows'
+  Drop27:
+    Chance: 3
+    DropName: DROPPED_ITEMS
+    Title: '&bArmor'
+    File: 'default/items/armor/unenchanted.yml'
+    Path: 'two'
+  Drop28:
+    Chance: 1
+    DropName: DROPPED_ITEMS
+    Title: '&5Enchanted books'
+    File: 'default/items/enchanted_books.yml'
+    Effects: true
+  Drop29:
+    Chance: 15
+    DropName: CHEST
+    Title: '&bDefault Chest'
+    File: 'default/chests/chest2.yml'
+    Path1: 'Default'
+  Drop30:
+    Chance: 10
+    DropName: CHEST
+    Title: '&5Pro Chest'
+    File: 'default/chests/chest2.yml'
+    Path1: 'Pro'
+  Drop31:
+    Chance: 5
+    DropName: CHEST
+    Title: '&bChest with Books'
+    File: 'default/chests/chest2.yml'
+    Path1: 'Books'
+  Drop32:
+    Chance: 2
+    DropName: PRIMED_TNT
+    Title: '&bPrimed Tnt'
+  Drop33:
+    Chance: 1
+    DropName: FIREWORK
+    Title: '&bFirework'
+  Drop34:
+    Chance: 1
+    DropName: FIREWORKS
+    Title: '&5Fireworks'
+  Drop35:
+    Chance: 1
+    DropName: FALLING_BLOCK
+    Title: '&bFalling Obsidian'
+    File: 'default/entities/falling_blocks.yml'
+    Path1: 'Obsidian'
+  Drop36:
+    Chance: 1
+    DropName: FALLING_BLOCK
+    Title: '&bFalling Nether Wart Block'
+    File: 'default/entities/falling_blocks.yml'
+    Path1: 'NetherWart'
+  Drop37:
+    Chance: 1
+    DropName: SET_BLOCK
+    Title: '&bLapis Block'
+    BlockMaterial: LAPIS_BLOCK
+  Drop38:
+    Chance: 1
+    DropName: SET_BLOCK
+    Title: '&bGold Block'
+    BlockMaterial: GOLD_BLOCK
+  Drop39:
+    Chance: 2
+    DropName: TOWER
+    Title: '&bClay Tower'
+  Drop40:
+    Chance: 1
+    DropName: BEDROCK
+    Title: '&bBedrock with sign'
+  Drop41:
+    Chance: 1
+    DropName: FEED
+    Title: '&5Feed player'
+    Message: '&aYou%s%ve been fed!'
+  Drop42:
+    Chance: 1
+    DropName: HEAL
+    Title: '&5Heal player'
+    Message: '&aYou%s%ve been healed!'
+  Drop43:
+    Chance: 1
+    DropName: ITEM_RAIN
+    Title: '&bIt%s%s raining ingots!'
+    Times: 10
+    ItemMaterials:
+     - GOLD_INGOT
+     - EMERALD
+     - DIAMOND
+  Drop44:
+    Chance: 1
+    DropName: FALLING_ANVILS
+    Title: '&bLook above you!'
+    Height: 24
+  Drop45:
+    Chance: 2
+    DropName: EXPLOSIVE_CHEST
+    Title: '&bChest that explodes!'
+    File: 'default/chests/chest1.yml'
+    Path1: 'Default'
+  Drop46:
+    Chance: 1
+    DropName: POTION_EFFECT
+    Title: '&bGood Effects'
+    Effects:
+     - 'REGENERATION%180%2'
+     - 'ABSORPTION%240%1'
+     - 'FIRE_RESISTANCE%300%0'
+     - 'DAMAGE_RESISTANCE%100%1'
+  Drop47:
+    Chance: 1
+    DropName: BLOCK_RAIN
+    Title: '&bIt%s%s raining lapis blocks!'
+    Times: 12
+    BlockMaterials:
+     - LAPIS_BLOCK
+  Drop48:
+    Chance: 2
+    DropName: XP
+    Title: '&bXP Orb'
+    XPAmount: 75
+  Drop49:
+    Chance: 1
+    DropName: TNT_RAIN
+    Title: '&bIt%s% raining tnt!'
+    Times: 9
+  Drop50:
+    Chance: 1
+    DropName: DROPPER
+    Title: '&bDropper'
+    Times: 16
+  Drop51:
+    Chance: 1
+    DropName: TREE
+    Title: '&bTree'
+    TreeType: JUNGLE
+  Drop52:
+    Chance: 1
+    DropName: FAKE_ITEM
+    Title: '&bFake Diamonds'
+    ItemAmount: 32
+  Drop53:
+    Chance: 1
+    DropName: FAKE_ITEM
+    Title: '&bFake Emerald'
+    ItemMaterial: EMERALD
+    ItemAmount: 16
+  Drop54:
+    Chance: 1
+    DropName: F_LB
+    Title: '&bFlying lucky block'
+  Drop55:
+    Chance: 1
+    DropName: ARROW_RAIN
+    Title: '&bArrow Rain'
+    Times: 25
+  Drop56:
+    Chance: 1
+    DropName: LAVA_HOLE
+    Title: '&bLava Hole'
+  Drop57:
+    Chance: 1
+    DropName: EXPLOSION
+    Title: '&bExplosion'
+    ExplosionPower: 1
+  Drop58:
+    Chance: 4
+    DropName: VILLAGER
+    Title: '&bExploding Villager'
+    Seconds: 6
+  Drop59:
+    Chance: 2
+    DropName: ELEMENTAL_CREEPER
+    Title: '&bElemental Creeper (Dirt)'
+  Drop60:
+    Chance: 2
+    DropName: ELEMENTAL_CREEPER
+    Title: '&bElemental Creeper (Stone)'
+    BlockMaterial: STONE
+  Drop61:
+    Chance: 4
+    DropName: BOB
+    Title: '&bBob'
+  Drop62:
+    Chance: 4
+    DropName: PETER
+    Title: '&bPeter'
+  Drop63:
+    Chance: 3
+    DropName: ENTITY
+    Title: '&bZombies'
+    File: 'default/entities/two.yml'
+    Path: 'Zombies'
+  Drop64:
+    Chance: 3
+    DropName: ENTITY
+    Title: '&bMushroom Cows'
+    File: 'default/entities/two.yml'
+    Path: 'Other'
+    Path1: 'mooshrooms'
+  Drop65:
+    Chance: 3
+    DropName: ENTITY
+    Title: '&bLucky Cow'
+    File: 'default/entities/one.yml'
+    Path: 'Other'
+    Path1: 'lucky_cow'
+  Drop66:
+    Chance: 4
+    DropName: ENTITY
+    Title: '&bLucky Chickens'
+    File: 'default/entities/one.yml'
+    Path: 'Other'
+    Path1: 'lucky_chickens'
+  Drop67:
+    Chance: 4
+    DropName: ENTITY
+    Title: '&bColourful Sheeps'
+    File: 'default/entities/two.yml'
+    Path: 'Other'
+    Path1: 'jeb_sheeps'
+  Drop68:
+    Chance: 3
+    DropName: ENTITY
+    Title: '&bRabbits'
+    File: 'default/entities/two.yml'
+    Path: 'Other'
+    Path1: 'rabbits'
+  Drop69:
+    Chance: 4
+    DropName: ENTITY
+    Title: '&bSheeps'
+    File: 'default/entities/two.yml'
+    Path: 'Other'
+    Path1: 'sheeps'
+  Drop70:
+    Chance: 5
+    DropName: SCHEMATIC_STRUCTURE
+    Title: '&1Structure: diamond ore'
+    File: 'default/structures/diamond_ore'
+    LocationType: BLOCK
+    Loc:
+     - '1'
+     - '2'
+     - '5'
+  Drop71:
+    Chance: 3
+    DropName: CUSTOM_STRUCTURE
+    Title: '&1Structure: Lucky Temple'
+    File: 'default/structures/lucky_temple_lbs.yml'
+    Path1: 'Temple'
+  Drop72:
+    Chance: 3
+    DropName: CUSTOM_STRUCTURE
+    Title: '&1Structure: 4 Lucky Blocks (Mossy)'
+    File: 'default/structures/m_luckyblock.yml'
+    Path1: 'Treasure'
+  Drop73:
+    Chance: 3
+    DropName: CUSTOM_STRUCTURE
+    Title: '&1Structure: 4 Lucky Blocks (Sandy)'
+    File: 'default/structures/s_luckyblock.yml'
+    Path1: 'Treasure'
+  Drop74:
+    Chance: 5
+    DropName: WATER_TRAP
+    Title: '&bWater trap'
+    Message: '&1Now try to get out of here.'
+  Drop75:
+    Chance: 3
+    DropName: SCHEMATIC_STRUCTURE
+    Title: '&1Structure: Sandstone'
+    File: 'default/structures/platform_sandstone'
+    LocationType: PLAYER
+    Loc:
+     - '-7'
+     - '3'
+     - '-3'
+  Drop76:
+    Chance: 5
+    DropName: SCHEMATIC_STRUCTURE
+    Title: '&1Structure: 4 Gold Blocks (Sandy)'
+    File: 'default/structures/s_goldblocks'
+    LocationType: PLAYER
+    Loc:
+     - '-2'
+     - '1'
+     - '4'
+  Drop77:
+    Chance: 3
+    DropName: SCHEMATIC_STRUCTURE
+    Title: '&1Structure: Temple'
+    File: 'default/structures/temple1'
+    LocationType: BLOCK
+    Loc:
+     - '6'
+     - '4'
+     - '6'
+  Drop78:
+    Chance: 4
+    DropName: JAIL
+    Title: '&bJail'
+  Drop79:
+    Chance: 4
+    DropName: LUCKY_WELL
+    Title: '&5Well of fortune'
+    Message: '&aThrow the coin in the well.'
+  Drop80:
+    Chance: 2
+    DropName: SCHEMATIC_STRUCTURE
+    Title: '&1Structure: Platform with lamps'
+    File: 'default/structures/platform'
+    LocationType: BLOCK
+    Loc:
+     - '8'
+     - '5'
+     - '-7'

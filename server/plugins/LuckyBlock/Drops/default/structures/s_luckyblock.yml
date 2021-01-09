@@ -1,0 +1,33 @@
+Structures:
+  Treasure:
+    LocationType: PLAYER
+    Schematics:
+      Schem1:
+        Loc: '4,4,-3'
+        File: 'default/structures/s_luckyblock1'
+    Loc: '-2,-1,-2'
+    Blocks:
+      Block1:
+        Location:
+          X: 1
+          Y: 1
+          Z: 1
+        LB_ID: 1
+      Block2:
+        Location:
+          X: 1
+          Y: 1
+          Z: 3
+        LB_ID: 1
+      Block3:
+        Location:
+          X: 3
+          Y: 1
+          Z: 1
+        LB_ID: 1
+      Block4:
+        Location:
+          X: 3
+          Y: 1
+          Z: 3
+        LB_ID: 1

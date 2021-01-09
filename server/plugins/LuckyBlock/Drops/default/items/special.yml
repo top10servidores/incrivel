@@ -1,0 +1,41 @@
+# @@@ Written by MCGamer199 @@@
+# Advanced Lucky Block Plugin
+
+one:
+  LuckyIronSword:
+    Chance: 1
+    Items:
+      item1:
+        Loc: 'default/items/i.yml,lucky_swords.iron'
+
+two:
+  LuckyDiamondSword:
+    Items:
+      item1:
+        Loc: 'default/items/i.yml,lucky_diamond_sword'
+  LuckyTool:
+    Items:
+      item1:
+        Loc: 'default/items/i.yml,lucky_tool'
+  LuckyBow:
+    Items:
+      item1:
+        Loc: 'default/items/i.yml,lucky_bow'
+  Unbreakable:
+    Items:
+      item1:
+        Loc: 'default/items/i.yml,unbreakable_tool'
+
+unbreakable_tools:
+  pickaxe:
+    Type: DIAMOND_PICKAXE
+    DisplayName: '&eUnbreakable Pickaxe'
+    Unbreakable: true
+  axe:
+    Type: DIAMOND_AXE
+    DisplayName: '&eUnbreakable Axe'
+    Unbreakable: true
+  shovel:
+    Type: DIAMOND_SHOVEL
+    DisplayName: '&eUnbreakable Shovel'
+    Unbreakable: true

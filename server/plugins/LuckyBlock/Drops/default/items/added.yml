@@ -1,0 +1,25 @@
+# @@@ Written by MCGamer199 @@@
+# Advanced Lucky Block Plugin
+
+One:
+  Dirt:
+    Items:
+      Item1:
+        Type: DIRT
+  Cake:
+    Items:
+      Item1:
+        Type: CAKE
+  DiamondPickaxe:
+    Items:
+      Item1:
+        Type: DIAMOND_PICKAXE
+  LuckyBlock:
+    Items:
+      Item1:
+        LBType: 1
+        Luck: 50
+  IronPickaxe:
+    Items:
+      Item1:
+        Type: IRON_PICKAXE
